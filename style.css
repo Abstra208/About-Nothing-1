@@ -1,0 +1,51 @@
+@font-face {
+    font-family: Nothing;
+    src: url("/font/Nothing/Nothing\ NdroidOs\ Main.ttf");
+}
+nav{
+    font-family: "Nothing";
+    display: flex;
+    justify-content: space-around;
+}
+nav h1{
+    z-index: 999;
+}
+nav li{
+    list-style: none;
+    font-size: 0.9375rem;
+}
+.nav_title{
+    color: black;
+}
+
+/*DROPDOWN*/
+.nav_dropdown{
+    display: none;
+    position: absolute;
+    top: 7%;
+    font-size: .5rem;
+    color: white;
+    background-color: black;
+    width: 100vw;
+    height: 50vh;
+}
+.nav_dropdown span{
+    display: none;
+}
+.nav_dropdown h2:hover span{
+    display: contents;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+}
+.product:hover .nav_dropdown{
+    display: contents;
+}
+.product:hover #nav_ground{
+    display: contents;
+    z-index: -1;
+}
+.product:hover #nav_title{
+    color: white;
+}
