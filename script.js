@@ -1,9 +1,5 @@
 function home(){
-    if (window.location.href == "https://marques.cf/index.html"){
-        window.location.assign("/index.html");     
-    }else{
-        console.log("erreur");
-    }
+    window.location.assign("/index.html");     
 }
 function tous_les_produits(){
     window.location="produits.html"
