@@ -55,6 +55,15 @@ nav h1, nav .h2_pointer:hover{
     width: 100vw;
     height: 50vh;
 }
+#nav_dropdown_img span{
+    display: none;
+}
+#nav_dropdown_img h2:hover span{
+    display: contents;
+}
+.product:hover #nav_dropdown_img{
+    display: contents;
+}
 #nav_dropdown span{
     display: none;
 }
