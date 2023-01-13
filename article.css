@@ -8,3 +8,11 @@ article{
 article img{
     height: 100vh;
 }
+article div{
+    display: flex;
+    flex-direction: row;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
