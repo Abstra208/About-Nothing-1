@@ -112,3 +112,8 @@ nav h1, nav .h2_pointer:hover{
     top: 15%;
     left: 2%;
 }
+#img_mon_nav{
+    position: absolute;
+    top: 15%;
+    left: 2%;
+}
