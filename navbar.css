@@ -113,3 +113,8 @@ nav h1, nav .h2_pointer:hover{
 .nav_margin_bottom{
     margin-bottom: 20px;
 }
+#img_pro_nav{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
