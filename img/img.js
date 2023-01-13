@@ -11,14 +11,20 @@ function black_nav(){
     document.getElementById("about_nav").className="text_white";
     document.getElementById("nav_title").className="text_white";
 }
-function white_nav(){
+
+function white_navc(){
     document.getElementById("nav").className="white";
     document.getElementById("products_nav").className="text_black";
     document.getElementById("about_nav").className="text_black";
     document.getElementById("nav_title").className="text_black";
 }
+
+function white_nav(){
+    white_navc();
+    img_changer('black')
+}
 function img_changer(prod_name){
     var image = document.getElementById("prod_img");
-    var db = { "Phone_1": "img/nothing_phone_1.png","ear_stick": "img/ear_stick.png","ear_1": "img/ear_1.png","power_45w": "img/power_45w"}
+    var db = { "Phone_1": "img/nothing_phone_1.png","ear_stick": "img/ear_stick.png","ear_1": "img/ear_1.png","power_45w": "img/power_45w","black":"img/black.png"}
     image.src=db[prod_name];
 }
