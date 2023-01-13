@@ -70,6 +70,9 @@ nav h1, nav .h2_pointer:hover{
 #nav_dropdown h2:hover span{
     display: contents;
 }
+.prod_img{
+    display: contents;
+}
 .product{
     display: flex;
     flex-direction: column;
