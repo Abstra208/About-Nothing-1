@@ -1,6 +1,6 @@
 function home(){
     if (window.location == index.html){
-        return
+        console.log("erreur");
     }else{
         window.location.replace("/index.html");
     }
