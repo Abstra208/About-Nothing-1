@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="img/nothing.tech.ico">
+    <link rel="stylesheet" href="produits.css">
+    <link rel="stylesheet" href="navbar.css">
+    <script src="/img/img.js"></script>
+</head>
+<body>
+    <nav id="nav">
+        <li><h1 id="nav_title" href="index.html">Nothing (R)</h1></li onmouseover="white_nav()">
+        <li class="product nav_title" onmouseover="black_nav()">
+            <h1 id="products_nav">Les produits (5)</h1>
+            <div id="nav_dropdown">
+                <h1 onclick="tous_les_produits()" class="h2_pointer">Tous les produits</h2>
+                <img style="float:left;" id="prod_img" src="img/black.png" width="187" alt="">
+                <h2 onmouseover="img_changer('Phone_1')" class="h2_pointer"><span>></span> Phone (1)</h2>
+                <br>
+                <h2 class="h2_pointer"><span>></span> Audio</h2>
+                <h2 onmouseover="img_changer('ear_stick')" class="h2_pointer"><span>></span> Ear (stick)</h2>
+                <h2 onmouseover="img_changer('ear_1')" class="h2_pointer"><span>></span> Ear (1)</h2>
+                <br>
+                <h1 class="h2_pointer">Tous les accessoires</h2>
+                <h2 onmouseover="img_changer('power_45w')" class="h2_pointer nav_margin_bottom"><span>></span> Power (45w)</h2>
+            </div>
+        </li>
+        <li class="about nav_title" onmouseover="black_nav()">
+            <h1 id="about_nav">À propos (2)</h1>
+            <div id="nav_dropdown_about">
+                <h2 class="h2_pointer">Tous le monde</h2>
+                <h2 class="h2_pointer"><span>></span> Carl Pei</h2>
+                <h2 class="h2_pointer nav_margin_bottom"><span>></span> Ludovic</h2>
+            </div>
+        </li>
+    </nav>
+    <article onmouseover="white_nav()">
+        <div>
+            <img src="img/ear_stick.png" width="187" alt="">
+        </div>
+        <div>
+            <img src="img/ear_1.png" width="187" alt="">        
+        </div>
+        <div>
+            <img src="img/nothing_phone_1.png" width="187" alt="">
+        </div>
+        <div>
+            <img src="img/power_45w.png" width="187" alt="">
+        </div>
+    </article>
+</body>
+</html>
