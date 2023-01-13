@@ -1,0 +1,10 @@
+article{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+article img{
+    height: 100vh;
+}
