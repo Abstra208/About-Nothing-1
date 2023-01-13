@@ -46,6 +46,15 @@ nav h1, nav .h2_pointer:hover{
     width: 100vw;
     height: 50vh;
 }
+#nav_dropdown_img{
+    float:left;
+    display: none;
+    position: absolute;
+    top: 7%;
+    font-size: .5rem;
+    width: 100vw;
+    height: 50vh;
+}
 #nav_dropdown span{
     display: none;
 }

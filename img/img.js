@@ -25,6 +25,6 @@ function white_nav(){
 }
 function img_changer(prod_name){
     var image = document.getElementById("prod_img");
-    var db = { "Phone_1": "img/nothing_phone_1.png","ear_stick": "img/ear_stick.png","ear_1": "img/ear_1.png","power_45w": "img/power_45w","black":"img/black.png"}
+    var db = { "Phone_1": "img/nothing_phone_1.png","ear_stick": "img/ear_stick.png","ear_1": "img/ear_1.png","power_45w": "img/power_45w.png","black":"img/blacks.png"}
     image.src=db[prod_name];
 }
