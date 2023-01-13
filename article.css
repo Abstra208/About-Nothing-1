@@ -3,7 +3,8 @@ article{
     left: 0;
     top: 0;
     z-index: 1;
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
 }
 article img{
     height: 100vh;
@@ -17,7 +18,9 @@ article div{
     flex-direction: column;
     justify-content: flex-end;
     height: 100vh;
-    margin-bottom: 70px;
+    position: absolute;
+    top: 50%;
+
 }
 .text h1{
     font-size: 5em;
