@@ -10,7 +10,6 @@ function black_nav(){
     document.getElementById("products_nav").className="text_white";
     document.getElementById("about_nav").className="text_white";
     document.getElementById("nav_title").className="text_white";
-    var image = document.getElementById("img_pro_nav").src="img/audio_tin.png"
 }
 function white_nav(){
     document.getElementById("nav").className="white";
