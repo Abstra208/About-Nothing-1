@@ -73,6 +73,9 @@ nav h1, nav .h2_pointer:hover{
 .prod_img{
     display: contents;
 }
+.prod_img_none{
+    display: none;
+}
 .product{
     display: flex;
     flex-direction: column;
