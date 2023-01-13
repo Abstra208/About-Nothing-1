@@ -15,5 +15,5 @@ article div{
 .text{
     display: flex;
     flex-direction: column;
-    text-align: end;
+    height: 100vh;
 }
