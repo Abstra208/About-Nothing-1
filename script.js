@@ -1,8 +1,8 @@
 function home(){
     if (window.location == index.html){
-        console.log(yes)
+        console.log("yes");
     }else{
-        console.log(no)
+        console.log("no");
     }
     window.location.replace("/index.html");
 }
