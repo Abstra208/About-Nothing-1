@@ -1,0 +1,28 @@
+article{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+}
+article img{
+    height: 100vh;
+}
+article div{
+    display: flex;
+    flex-direction: row;
+}
+article div div{
+    position: absolute;
+    top: 50%;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100vh;
+}
+.text h1{
+    font-size: 5em;
+}
