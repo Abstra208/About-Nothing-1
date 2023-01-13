@@ -2,7 +2,7 @@ function home(){
     if (window.location == marques.cf){
         console.log("erreur");
     }else{
-        window.location.replace("/index.html");
+        window.location.assign("/index.html");
     }
 }
 function tous_les_produits(){
