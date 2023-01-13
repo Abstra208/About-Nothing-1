@@ -1,5 +1,5 @@
 function home(){
-    if (window.location.href == "/index.html"){
+    if (window.location.href == "https//:marques.cf/index.html"){
         console.log("erreur");
     }else{
         window.location.assign("/index.html");
