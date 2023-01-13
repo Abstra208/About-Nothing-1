@@ -17,6 +17,7 @@ article div{
     flex-direction: column;
     justify-content: flex-end;
     height: 100vh;
+    margin-bottom: 70px;
 }
 .text h1{
     font-size: 5em;
