@@ -13,10 +13,6 @@ article div{
     display: flex;
     flex-direction: row;
 }
-article div div{
-    position: absolute;
-    top: 50%;
-}
 .text{
     display: flex;
     flex-direction: column;
