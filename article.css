@@ -11,6 +11,7 @@ article img{
 article div{
     display: flex;
     flex-direction: row;
+    text-align: end;
 }
 .text{
     display: flex;
