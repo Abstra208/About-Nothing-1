@@ -2,7 +2,7 @@ function home(){
     if (window.location == index.html){
         return
     }else{
-        window.location.replace("index.html");
+        window.location.replace("/index.html");
     }
 }
 function tous_les_produits(){
