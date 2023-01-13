@@ -1,10 +1,9 @@
 function home(){
     if (window.location == index.html){
-        console.log("yes");
+        return
     }else{
-        console.log("no");
+        window.location.replace("index.html");
     }
-    window.location.replace("/index.html");
 }
 function tous_les_produits(){
     window.location="produits.html"
