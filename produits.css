@@ -24,3 +24,10 @@ article div{
 .text h1{
     font-size: 5em;
 }
+
+/*SCREEN SIZE*/
+@media screen and (max-width: 850px){
+    article div{
+        flex-direction: column;
+    }
+}
