@@ -3,8 +3,8 @@ article{
     left: 0;
     top: 0;
     z-index: 1;
-    width: 100vw;
-    height: 100vh;
+    height: auto;
+    width: auto;
 }
 article img{
     height: 100vh;
@@ -12,6 +12,8 @@ article img{
 article div{
     display: flex;
     flex-direction: row;
+    height: 100vh;
+    width: 100vw;
 }
 .text{
     display: flex;
