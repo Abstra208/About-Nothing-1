@@ -19,7 +19,7 @@ article div{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height: 100vh;
+    height: 80vh;
 }
 .text h1{
     font-size: 5em;
