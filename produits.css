@@ -12,7 +12,7 @@ article img{
 article div{
     display: flex;
     flex-direction: row;
-    height: 100vh;
+    height: auto;
     width: 100vw;
 }
 .text{
