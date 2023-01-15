@@ -30,4 +30,7 @@ article div{
     article div{
         flex-direction: column;
     }
+    .text{
+        height: auto;
+    }
 }
