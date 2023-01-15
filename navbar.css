@@ -117,3 +117,10 @@ nav h1, nav .h2_pointer:hover{
     top: 15%;
     left: 2%;
 }
+
+/*SCREEN SIZE*/
+@media screen and (max-width: 750px){
+    nav{
+        display: none;
+    }
+}
