@@ -33,4 +33,8 @@ article div{
     .text{
         height: auto;
     }
+    article img{
+        height: auto;
+        width: 100vw;
+    }
 }
