@@ -13,24 +13,26 @@
 </head>
 <body>
     <nav id="nav">
-        <li><h1 onclick="home()" id="nav_title">Nothing (R)</h1></li onmouseover="white_nav()">
+        <li><h1 onclick="home()" id="nav_title" href="index.html">Nothing (R)</h1></li onmouseover="white_nav()">
         <li class="product nav_title" onmouseover="black_nav()">
             <h1 id="products_nav">Les produits (5)</h1>
             <div id="nav_dropdown">
-                <h1 onclick="tous_les_produits()" class="h2_pointer">Tous les produits</h2>
-                <h2 class="h2_pointer"><span>></span> Phone (1)</h2>
-                <br>
-                <h2 class="h2_pointer"><span>></span> Audio</h2>
-                <h2 class="h2_pointer"><span>></span> Ear (stick)</h2>
-                <h2 class="h2_pointer"><span>></span> Ear (1)</h2>
-                <br>
-                <h1 class="h2_pointer">Tous les accessoires</h2>
-                <h2 class="h2_pointer nav_margin_bottom"><span>></span> Power (45w)</h2>
+                <img id="img_pro_nav" src="img/audio_tin.png" alt="">
+                <h1 onmouseover="img_changer('audio')" onclick="tous_les_produits()" class="h2_pointer">Tous les produits</h2>
+                <h2 onmouseover="img_changer('Phone_1')" class="h2_pointer"><span>></span> Phone (1)</h2>
+                <br onmouseover="img_changer('audio')">
+                <h2 onmouseover="img_changer('audio')" class="h2_pointer"><span>></span> Audio</h2>
+                <h2 onmouseover="img_changer('ear_stick')" class="h2_pointer"><span>></span> Ear (stick)</h2>
+                <h2 onmouseover="img_changer('ear_1')" class="h2_pointer"><span>></span> Ear (1)</h2>
+                <br onmouseover="img_changer('audio')">
+                <h1 onmouseover="img_changer('audio')" class="h2_pointer">Tous les accessoires</h2>
+                <h2 onmouseover="img_changer('power_45w')" class="h2_pointer nav_margin_bottom"><span>></span> Power (45w)</h2>
             </div>
         </li>
         <li class="about nav_title" onmouseover="black_nav()">
             <h1 id="about_nav">À propos (2)</h1>
             <div id="nav_dropdown_about">
+                <img id="img_mon_nav" src="img/carl-pei_tin.png" alt="">
                 <h2 class="h2_pointer">Tous le monde</h2>
                 <h2 class="h2_pointer"><span>></span> Carl Pei</h2>
                 <h2 class="h2_pointer nav_margin_bottom"><span>></span> Ludovic</h2>
