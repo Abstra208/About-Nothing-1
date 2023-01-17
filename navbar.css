@@ -125,6 +125,7 @@
     position: absolute;
     top: 0;
     left: 0;
+    position: fixed;
 }
 .not_visible_nav_screen{
     display: none;
