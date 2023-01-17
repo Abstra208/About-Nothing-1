@@ -138,7 +138,7 @@
 
 /*SCREEN SIZE*/
 @media screen and (max-width: 850px){
-    nav{
+    #nav{
         display: none;
     }
     #nav_screen_size img{
