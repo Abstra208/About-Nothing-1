@@ -25,7 +25,7 @@ function img_changer_p(prod_name){
 }
 function img_changer_m(prod_name){
     var image = document.getElementById("img_mon_nav");
-    var db = { "Carl" : "img/carl-pei_tin.png", "Ludovic" : "img/2profil.png" }
+    var db = { "Carl" : "img/carl-pei_tin.png", "Ludovic" : "img/2profil.png" , "noir" : "img/black.png" }
     image.src=db[prod_name];
 }
 
