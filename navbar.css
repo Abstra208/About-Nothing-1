@@ -126,6 +126,9 @@
     top: 0;
     left: 0;
 }
+#nav_screen_size img{
+    display: none;
+}
 .not_visible_nav_screen{
     display: none;
 }
@@ -137,5 +140,8 @@
 @media screen and (max-width: 850px){
     nav{
         display: none;
+    }
+    #nav_screen_size img{
+        display: contents;
     }
 }
