@@ -138,7 +138,7 @@
     #nav{
         display: none;
     }
-    #fleche_nav_screen{
+    #nav_screen_size{
         display: contents;
     }
 }
