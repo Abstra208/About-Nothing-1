@@ -15,7 +15,6 @@ article div{
     height: auto;
     width: 100vw;
     background-color: white;
-    position: absolute;
 }
 .text{
     display: flex;
