@@ -18,7 +18,7 @@ function white_nav(){
     document.getElementById("nav_title").className="text_black";
 }
 
-function nav_screen{
+function nav_screen(){
     var button = document.getElementById("fleche_nav_screen");
     var nav = document.getElementById("nav_dropdown_screen");
     nav.style.display="contents";
