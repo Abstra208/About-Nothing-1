@@ -1,5 +1,5 @@
 function home(){
-    window.location.assign("/index.html");
+    window.location=""
 }
 function tous_les_produits(){
     window.location="produits.html"
