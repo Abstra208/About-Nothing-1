@@ -126,7 +126,7 @@
     top: 0;
     left: 0;
 }
-#nav_screen_size img{
+#fleche_nav_screen{
     display: none;
 }
 .not_visible_nav_screen{
@@ -141,7 +141,7 @@
     #nav{
         display: none;
     }
-    #nav_screen_size img{
+    #fleche_nav_screen{
         display: contents;
     }
 }
