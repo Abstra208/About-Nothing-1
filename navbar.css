@@ -126,8 +126,11 @@
     top: 0;
     left: 0;
 }
-#nav_dropdown_screen{
+.not_visible_nav_screen{
     display: none;
+}
+.visible_nav_screen{
+    display: contents;
 }
 
 /*SCREEN SIZE*/

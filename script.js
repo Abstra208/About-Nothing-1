@@ -21,7 +21,7 @@ function white_nav(){
 function nav_screen(){
     var button = document.getElementById("fleche_nav_screen");
     var nav = document.getElementById("nav_dropdown_screen");
-    nav.style.display="contents";
+    nav.className="visible_nav_screen";
 }
 
 function img_changer_p(prod_name){
