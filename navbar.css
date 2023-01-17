@@ -118,6 +118,11 @@
     left: 2%;
 }
 
+/*Nav dropdown screen size*/
+#nav_screen_size{
+    z-index: 999;
+}
+
 /*SCREEN SIZE*/
 @media screen and (max-width: 850px){
     nav{
