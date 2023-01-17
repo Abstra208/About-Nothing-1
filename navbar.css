@@ -126,6 +126,9 @@
     top: 0;
     left: 0;
 }
+#nav_dropdown_screen{
+    display: none;
+}
 
 /*SCREEN SIZE*/
 @media screen and (max-width: 850px){
