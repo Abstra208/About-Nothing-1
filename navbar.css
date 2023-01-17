@@ -48,7 +48,7 @@
     height: 50vh;
 }
 #nav_dropdown_img{
-    float:left;
+    float: left;
     display: none;
     position: absolute;
     top: 7%;
@@ -121,7 +121,7 @@
 
 /*Nav dropdown screen size*/
 #nav_screen_size{
-    z-index: 999;
+    z-index: 1100;
     position: absolute;
     top: 0;
     left: 0;
