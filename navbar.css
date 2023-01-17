@@ -4,6 +4,7 @@
 }
 .black{
     background-color: black;
+    background-size: 50vh 100vw;
 }
 .text_white{
     color: white;
