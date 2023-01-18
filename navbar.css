@@ -127,10 +127,13 @@
     position: fixed;
 }
 .not_visible_nav_screen{
-    display: contents;
+    display: none;
 }
 .visible_nav_screen{
     display: contents;
+}
+#nav_screen_size{
+    display: none;
 }
 
 /*SCREEN SIZE*/
@@ -139,6 +142,6 @@
         display: none;
     }
     #nav_screen_size{
-        display: none;
+        display: contents;
     }
 }
