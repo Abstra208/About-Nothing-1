@@ -4,6 +4,7 @@ article{
     top: 0;
     height: auto;
     width: auto;
+    z-index: 1;
 }
 article img{
     height: 100vh;
