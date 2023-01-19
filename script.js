@@ -22,6 +22,13 @@ function nav_screen(){
     document.getElementById("nav_dropdown_screen").className="visible_nav_screen";
 }
 
+function onload(){
+    var img = document.getElementById("fleche_nav_screen");
+    if (document.getElementById("nav_dropdown_screen").className="visible_nav_screen"){
+        img.src=("img/fleche_r.png")
+    }
+}
+
 function img_changer_p(prod_name){
     var image = document.getElementById("img_pro_nav");
     var db = { "Phone_1": "img/phone1_tin.png","audio": "img/audio_tin.png","ear_stick": "img/earstick_tin.png","ear_1": "img/ear1_tin.png","power_45w": "img/power45_tin.png"}
