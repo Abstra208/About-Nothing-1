@@ -10,5 +10,7 @@
     left: 0;
     top: 0;
     display: flex;
+}
+#screen_big li{
     justify-content: space-around;
 }
