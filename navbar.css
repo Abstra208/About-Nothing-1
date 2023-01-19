@@ -136,7 +136,7 @@
         display: none;
     }
     #nav_screen_size{
-        position: absolute;
+        position: fixed;
         left: 0;
         top: 0;
         display: contents;
