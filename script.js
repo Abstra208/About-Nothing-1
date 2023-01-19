@@ -26,6 +26,8 @@ function onload(){
     var img = document.getElementById("fleche_nav_screen");
     if (document.getElementById("nav_dropdown_screen").classList.contains("visible_nav_screen")){
         img.src=("img/fleche_r.png")
+    }else if (document.getElementById("nav_dropdown_screen").classList.contains("not_visible_nav_screen")){
+        img.src=("img/fleche.png")
     }
 }
 
