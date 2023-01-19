@@ -120,7 +120,7 @@
 
 /*Nav dropdown screen size*/
 #nav_screen_size{
-    display: none flex;
+    display: none;
     font-family: "Nothing";
     justify-content: center;
     align-items: center;
