@@ -23,10 +23,10 @@ nav div{
     top: 0;
     left: 0;
 }
-nav #screen_big h1{
+nav div h1{
     font-weight: 999;
 }
-nav #screen_big li{
+nav div li{
     list-style: none;
     font-size: 0.8rem;
 }
