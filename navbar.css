@@ -14,7 +14,7 @@
 }
 
 /*BODY nav*/
-nav{
+nav div{
     font-family: "Nothing";
     display: flex;
     justify-content: space-around;
@@ -23,17 +23,17 @@ nav{
     top: 0;
     left: 0;
 }
-nav h1{
+nav #screen_big h1{
     font-weight: 999;
 }
-nav li{
+nav #screen_big li{
     list-style: none;
     font-size: 0.8rem;
 }
 .nav_title{
     color: black;
 }
-nav h1, nav .h2_pointer:hover{
+nav #screen_big h1, nav #screen_big .h2_pointer:hover{
     cursor: pointer;
 }
 
