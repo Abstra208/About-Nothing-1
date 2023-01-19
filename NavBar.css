@@ -12,5 +12,5 @@
     display: flex;
 }
 #screen_big li{
-    justify-content: space-around;
+    align-items: center;
 }
