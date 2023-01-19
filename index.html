@@ -12,43 +12,45 @@
     <script src="script.js"></script>
 </head>
 <body onload="onload()">
-    <nav id="nav_screen_size">
-        <img onclick="nav_screen()" id="fleche_nav_screen" src="img/fleche.png" height="50" alt="">
-        <div id="nav_dropdown_screen" class="not_visible_nav_screen">
-            <h1>Phone 1</h1>
-            <h1>Ear (stick)</h1>
-            <h1>Ear (1)</h1>
-            <h1>Power (45w)</h1>
+    <nav>
+        <div id="screen_tin">
+            <img onclick="nav_screen()" id="fleche_nav_screen" src="img/fleche.png" height="50" alt="">
+            <div id="nav_dropdown_screen" class="not_visible_nav_screen">
+                <h1>Phone 1</h1>
+                <h1>Ear (stick)</h1>
+                <h1>Ear (1)</h1>
+                <h1>Power (45w)</h1>
+            </div>
         </div>
-    </nav>
-    <nav id="nav">
-        <li><h1 id="nav_title" href="index.html">Nothing (R)</h1></li onmouseover="white_nav()">
-        <li class="product nav_title" onmouseover="black_nav()">
-            <div>
-                <h1 id="products_nav" onclick="tous_les_produits()">Les produits (5)</h1>
-                <div id="nav_dropdown">
-                    <img id="img_pro_nav" src="img/audio_tin.png" alt="">
-                    <h1 onclick="tous_les_produits()" class="h2_pointer">Tous les produits</h2>
-                    <h2 onmouseover="img_changer_p('Phone_1')" onmouseout="img_changer_p('audio')" class="h2_pointer"><span>></span> Phone (1)</h2>
-                    <br>
-                    <h2 class="h2_pointer"><span>></span> Audio</h2>
-                    <h2 onmouseover="img_changer_p('ear_stick')" onmouseout="img_changer_p('audio')" class="h2_pointer"><span>></span> Ear (stick)</h2>
-                    <h2 onmouseover="img_changer_p('ear_1')" onmouseout="img_changer_p('audio')" class="h2_pointer"><span>></span> Ear (1)</h2>
-                    <br>
-                    <h1 class="h2_pointer">Tous les accessoires</h2>
-                    <h2 onmouseover="img_changer_p('power_45w')" onmouseout="img_changer_p('audio')" class="h2_pointer nav_margin_bottom"><span>></span> Power (45w)</h2>
-                </div>  
-            </div>
-        </li>
-        <li class="about nav_title" onmouseover="black_nav()">
-            <h1 id="about_nav">À propos (2)</h1>
-            <div id="nav_dropdown_about">
-                <img id="img_mon_nav" src="img/black.png" alt="">
-                <h2 class="h2_pointer">Tous le monde</h2>
-                <h2 onmouseover="img_changer_m('Carl')" onmouseout="img_changer_m('noir')" class="h2_pointer"><span>></span> Carl Pei</h2>
-                <h2 onmouseover="img_changer_m('Ludovic')" onmouseout="img_changer_m('noir')" class="h2_pointer nav_margin_bottom"><span>></span> Ludovic</h2>
-            </div>
-        </li>
+        <div id="screen_big">
+            <li><h1 id="nav_title" href="index.html">Nothing (R)</h1></li onmouseover="white_nav()">
+            <li class="product nav_title" onmouseover="black_nav()">
+                <div>
+                    <h1 id="products_nav" onclick="tous_les_produits()">Les produits (5)</h1>
+                    <div id="nav_dropdown">
+                        <img id="img_pro_nav" src="img/audio_tin.png" alt="">
+                        <h1 onclick="tous_les_produits()" class="h2_pointer">Tous les produits</h2>
+                        <h2 onmouseover="img_changer_p('Phone_1')" onmouseout="img_changer_p('audio')" class="h2_pointer"><span>></span> Phone (1)</h2>
+                        <br>
+                        <h2 class="h2_pointer"><span>></span> Audio</h2>
+                        <h2 onmouseover="img_changer_p('ear_stick')" onmouseout="img_changer_p('audio')" class="h2_pointer"><span>></span> Ear (stick)</h2>
+                        <h2 onmouseover="img_changer_p('ear_1')" onmouseout="img_changer_p('audio')" class="h2_pointer"><span>></span> Ear (1)</h2>
+                        <br>
+                        <h1 class="h2_pointer">Tous les accessoires</h2>
+                        <h2 onmouseover="img_changer_p('power_45w')" onmouseout="img_changer_p('audio')" class="h2_pointer nav_margin_bottom"><span>></span> Power (45w)</h2>
+                    </div>  
+                </div>
+            </li>
+            <li class="about nav_title" onmouseover="black_nav()">
+                <h1 id="about_nav">À propos (2)</h1>
+                <div id="nav_dropdown_about">
+                    <img id="img_mon_nav" src="img/black.png" alt="">
+                    <h2 class="h2_pointer">Tous le monde</h2>
+                    <h2 onmouseover="img_changer_m('Carl')" onmouseout="img_changer_m('noir')" class="h2_pointer"><span>></span> Carl Pei</h2>
+                    <h2 onmouseover="img_changer_m('Ludovic')" onmouseout="img_changer_m('noir')" class="h2_pointer nav_margin_bottom"><span>></span> Ludovic</h2>
+                </div>
+            </li>
+        </div>
     </nav>
     <article onmouseover="white_nav()">
         <div>

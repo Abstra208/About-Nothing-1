@@ -23,17 +23,17 @@ nav{
     top: 0;
     left: 0;
 }
-#nav h1{
+nav h1{
     font-weight: 999;
 }
-#nav li{
+nav li{
     list-style: none;
     font-size: 0.8rem;
 }
 .nav_title{
     color: black;
 }
-#nav h1, #nav .h2_pointer:hover{
+nav h1, nav .h2_pointer:hover{
     cursor: pointer;
 }
 
@@ -119,7 +119,7 @@ nav{
 }
 
 /*Nav dropdown screen size*/
-#nav_screen_size{
+#screen_tin{
     display: none;
 }
 .not_visible_nav_screen{
