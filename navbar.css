@@ -120,13 +120,13 @@
 
 /*Nav dropdown screen size*/
 #nav_screen_size{
-    display: none;
     font-family: "Nothing";
     justify-content: center;
     align-items: center;
     position: fixed;
     width: 100vw;
     height: 100vh;
+    display: none;
 }
 .not_visible_nav_screen{
     display: none;
@@ -141,9 +141,6 @@
         display: none;
     }
     #nav_screen_size{
-        position: fixed;
-        left: 0;
-        top: 0;
         display: contents;
     }
 }
