@@ -21,6 +21,7 @@ nav{
     left: 0;
     top: 0;
     display: flex;
+    justify-content: space-around;
 }
 #screen_big li{
     align-items: center;
