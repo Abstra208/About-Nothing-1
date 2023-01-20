@@ -1,7 +1,4 @@
 #screen_tin{
-    position: fixed;
-    left: 0;
-    top: 0;
     display: none;
 }
 #screen_tin div{
@@ -22,6 +19,9 @@
 @media screen and (max-width: 850px){
     #screen_tin{
         display: contents;
+        position: fixed;
+        left: 0;
+        top: 0;
     }
     #screen_big{
         display: none;
