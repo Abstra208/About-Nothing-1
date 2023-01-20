@@ -1,5 +1,5 @@
 #screen_tin{
-    display: none;
+    opacity: 0%;
 }
 #screen_tin div{
     display: flex;
@@ -18,7 +18,7 @@
 
 @media screen and (max-width: 850px){
     #screen_tin{
-        display: contents;
+        opacity: 100%;
         position: fixed;
         left: 0;
         top: 0;
