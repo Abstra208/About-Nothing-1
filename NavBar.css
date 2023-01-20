@@ -17,13 +17,16 @@ nav{
 }
 
 #screen_big{
-    position: fixed;
-    left: 0;
-    top: 0;
-}
-#screen_big li{
+    font-family: "Nothing";
     display: flex;
     justify-content: space-around;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+#screen_big li{
     list-style: none;
 }
 
