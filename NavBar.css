@@ -30,19 +30,19 @@ nav{
     left: 0;
     z-index: 999;
 }
-#screen_big .nav_dropdown_pro{
+#screen_big #nav_dropdown_pro{
     display: none;
 }
-#screen_big .nav_dropdown_abo{
+#screen_big #nav_dropdown_abo{
     display: none;
 }
 #screen_big li{
     list-style: none;
 }
-.about:hover .nav_dropdown_abo{
+.about:hover #nav_dropdown_abo{
     display: contents;
 }
-.product:hover .nav_dropdown_pro{
+.product:hover #nav_dropdown_pro{
     display: contents;
 }
 
