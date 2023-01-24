@@ -31,20 +31,20 @@ nav{
     z-index: 999;
 }
 #screen_big #nav_dropdown_pro{
-    position: absolute;
     display: none;
 }
 #screen_big #nav_dropdown_abo{
-    position: absolute;
     display: none;
 }
 #screen_big li{
     list-style: none;
 }
 #about:hover #nav_dropdown_abo{
+    position: absolute;
     display: contents;
 }
 #product:hover #nav_dropdown_pro{
+    position: absolute;
     display: contents;
 }
 
