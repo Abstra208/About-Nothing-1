@@ -30,6 +30,21 @@ nav{
     left: 0;
     z-index: 999;
 }
+#screen_big h2 span{
+    display: none;
+}
+#screen_big h2:hover span{
+    display: contents;
+}
+#screen_big img{
+    float: left;
+    display: none;
+    position: absolute;
+    top: 7%;
+    font-size: .5rem;
+    width: 100vw;
+    height: 50vh;
+}
 #screen_big #nav_dropdown_pro{
     display: none;
 }
@@ -38,6 +53,10 @@ nav{
 }
 #screen_big li{
     list-style: none;
+    font-size: 0.8rem;
+}
+#screen_big li:hover{
+    cursor: pointer;
 }
 #about:hover #nav_dropdown_abo{
     position: absolute;
@@ -65,5 +84,69 @@ nav{
     }
     #screen_big{
         display: none;
+    }
+}
+
+
+
+
+/*DROPDOWN About
+#nav_dropdown_about{
+    display: none;
+    position: absolute;
+    top: 7%;
+    font-size: .5rem;
+    color: black;
+}
+#nav_dropdown_about span{
+    display: none;
+}
+#nav_dropdown_about h2:hover span{
+    display: contents;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+}
+.about:hover #nav_dropdown_about{
+    display: contents;
+}
+
+/*random*/
+.h2_pointer{
+    color: white;
+}
+.nav_margin_bottom{
+    margin-bottom: 80px;
+}
+#img_pro_nav{
+    position: absolute;
+    top: 15%;
+    left: 2%;
+}
+#img_mon_nav{
+    position: absolute;
+    top: 15%;
+    left: 2%;
+}
+
+/*Nav dropdown screen size*/
+#screen_tin{
+    display: none;
+}
+.not_visible_nav_screen{
+    display: none;
+}
+.visible_nav_screen{
+    display: contents;
+}
+
+/*SCREEN SIZE*/
+@media screen and (max-width: 850px){
+    #nav{
+        display: none;
+    }
+    #nav_screen_size{
+        display: contents;
     }
 }
