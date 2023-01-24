@@ -12,7 +12,7 @@ nav{
 #screen_tin{
     opacity: 0%;
 }
-#screen_tin .nav_dropdown{
+#nav_dropdown_tin{
     display: none;
 }
 #screen_tin div{

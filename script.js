@@ -6,16 +6,7 @@ function tous_les_produits(){
 }
 
 function nav_screen(){
-    document.getElementById("nav_dropdown_screen").className="visible_nav_screen";
-}
-
-function onload(){
-    var img = document.getElementById("fleche_nav_screen");
-    if (document.getElementById("nav_dropdown_screen").classList.contains("visible_nav_screen")){
-        img.src=("img/fleche_r.png")
-    }else if (document.getElementById("nav_dropdown_screen").classList.contains("not_visible_nav_screen")){
-        img.src=("img/fleche.png")
-    }
+    document.getElementById("nav_dropdown_tin").className="visible_nav_screen";
 }
 
 function img_changer_p(prod_name){
