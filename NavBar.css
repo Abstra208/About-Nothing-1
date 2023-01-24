@@ -41,10 +41,12 @@ nav{
 }
 #about:hover #nav_dropdown_abo{
     position: absolute;
+    top: 7;
     display: contents;
 }
 #product:hover #nav_dropdown_pro{
     position: absolute;
+    top: 7;
     display: contents;
 }
 
