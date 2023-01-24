@@ -31,9 +31,11 @@ nav{
     z-index: 999;
 }
 #screen_big #nav_dropdown_pro{
+    position: absolute;
     display: none;
 }
 #screen_big #nav_dropdown_abo{
+    position: absolute;
     display: none;
 }
 #screen_big li{
