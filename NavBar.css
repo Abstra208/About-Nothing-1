@@ -46,9 +46,11 @@ nav{
     height: 50vh;
 }
 #screen_big #nav_dropdown_pro{
+    background-color: black;
     display: none;
 }
 #screen_big #nav_dropdown_abo{
+    background-color: black;
     display: none;
 }
 #screen_big li{
