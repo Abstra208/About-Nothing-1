@@ -41,12 +41,18 @@ nav{
 }
 #about:hover #nav_dropdown_abo{
     position: absolute;
-    top: 7;
+    top: 7%;
+    font-size: .5rem;
+    width: 100vw;
+    height: 50vh;
     display: contents;
 }
 #product:hover #nav_dropdown_pro{
     position: absolute;
-    top: 7;
+    top: 7%;
+    font-size: .5rem;
+    width: 100vw;
+    height: 50vh;
     display: contents;
 }
 
