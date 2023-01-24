@@ -39,10 +39,10 @@ nav{
 #screen_big li{
     list-style: none;
 }
-.about:hover #nav_dropdown_abo{
+#about:hover #nav_dropdown_abo{
     display: contents;
 }
-.product:hover #nav_dropdown_pro{
+#product:hover #nav_dropdown_pro{
     display: contents;
 }
 
