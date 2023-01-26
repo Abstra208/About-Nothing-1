@@ -91,29 +91,6 @@ nav{
 
 
 
-
-/*DROPDOWN About
-#nav_dropdown_about{
-    display: none;
-    position: absolute;
-    top: 7%;
-    font-size: .5rem;
-    color: black;
-}
-#nav_dropdown_about span{
-    display: none;
-}
-#nav_dropdown_about h2:hover span{
-    display: contents;
-}
-.about{
-    display: flex;
-    flex-direction: column;
-}
-.about:hover #nav_dropdown_about{
-    display: contents;
-}
-
 /*random*/
 .h2_pointer{
     color: white;
