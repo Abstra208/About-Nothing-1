@@ -7,6 +7,8 @@ article{
     z-index: -1;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
+    display: flex;
+    flex-direction: column;
 }
 article img{
     position: relative;
