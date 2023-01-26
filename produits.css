@@ -16,6 +16,7 @@ article div{
     height: auto;
     width: 100vw;
     background-color: white;
+    scroll-snap-align: center;
 }
 .text{
     display: flex;
