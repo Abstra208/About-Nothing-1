@@ -5,6 +5,7 @@ article{
     height: auto;
     width: auto;
     z-index: -1;
+    scroll-snap-type: y mandatory;
 }
 article img{
     height: 100vh;
