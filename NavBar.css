@@ -110,24 +110,3 @@ nav{
     top: 15%;
     left: 2%;
 }
-
-/*Nav dropdown screen size*/
-#screen_tin{
-    display: none;
-}
-.not_visible_nav_screen{
-    display: none;
-}
-.visible_nav_screen{
-    display: contents;
-}
-
-/*SCREEN SIZE*/
-@media screen and (max-width: 850px){
-    #nav{
-        display: none;
-    }
-    #nav_screen_size{
-        display: contents;
-    }
-}
