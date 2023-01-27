@@ -9,7 +9,7 @@ article{
     scroll-snap-type: y mandatory;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 article img{
     position: relative;
