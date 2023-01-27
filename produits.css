@@ -14,7 +14,7 @@ article img{
     position: relative;
     left: 50%;
     top: 50%;
-    width: 100vw;
+    height: 100vh;
     transform: translate(-50%, -50%);
 }
 article div{
@@ -28,14 +28,4 @@ article div{
 
 /*SCREEN SIZE*/
 @media screen and (max-width: 850px){
-    article div{
-        flex-direction: column;
-    }
-    .text{
-        height: auto;
-    }
-    article img{
-        height: auto;
-        width: 100vw;
-    }
 }
