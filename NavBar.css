@@ -80,7 +80,6 @@ nav{
 
 @media screen and (max-width: 850px){
     #screen_tin{
-        display: contents;
         position: fixed;
         opacity: 100%;
         left: 0;
@@ -88,6 +87,9 @@ nav{
     }
     #screen_big{
         display: none;
+    }
+    #fleche_nav_screen{
+        display: block;
     }
 }
 
