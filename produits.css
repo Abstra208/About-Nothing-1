@@ -13,6 +13,7 @@ article{
 }
 article img{
     position: relative;
+    overflow-x: hidden;
     left: 50%;
     top: 50%;
     height: 100vh;
@@ -32,6 +33,5 @@ article div{
 @media screen and (max-width: 1592px){
     article{
         width: auto;
-        object-fit: cover;
     }
 }
