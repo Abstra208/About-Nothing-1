@@ -79,8 +79,8 @@ nav{
     #screen_tin{
         display: contents;
         position: fixed;
-        top: 0;
-        left: 0;
+        top: 23px;
+        left: 23px;
     }
     #screen_big{
         display: none;
