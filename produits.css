@@ -16,7 +16,6 @@ article img{
     left: 50%;
     top: 50%;
     height: 100vh;
-    width: auto;
     transform: translate(-50%, -50%);
 }
 article div{
