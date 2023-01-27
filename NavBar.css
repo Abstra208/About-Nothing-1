@@ -10,6 +10,7 @@ nav{
 }
 
 #screen_tin{
+    display: none;
     position: fixed;
     left: 0;
     top: 0;
@@ -78,6 +79,9 @@ nav{
 }
 
 @media screen and (max-width: 850px){
+    #screen_tin{
+        display: contents;
+    }
     #screen_big{
         display: none;
     }
