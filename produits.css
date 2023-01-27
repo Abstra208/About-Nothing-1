@@ -3,7 +3,6 @@ article{
     left: 0;
     top: 0;
     height: 100%;
-    width: 100%;
     z-index: -1;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
@@ -29,8 +28,4 @@ article div{
 }
 
 /*SCREEN SIZE*/
-@media screen and (max-width: 1592px){
-    article{
-        width: auto;
-    }
-}
+@media screen and (max-width: 1592px){}
