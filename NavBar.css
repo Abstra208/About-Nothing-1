@@ -10,16 +10,13 @@ nav{
 }
 
 #screen_tin{
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     z-index: 1;
 }
 #nav_dropdown_tin{
     display: none;
-}
-#screen_tin div{
-    display: flex;
     flex-direction: column;
 }
 
@@ -81,11 +78,6 @@ nav{
 }
 
 @media screen and (max-width: 850px){
-    #screen_tin{
-        position: fixed;
-        left: 0;
-        top: 0;
-    }
     #screen_big{
         display: none;
     }
