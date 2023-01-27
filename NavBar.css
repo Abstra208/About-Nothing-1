@@ -10,7 +10,6 @@ nav{
 }
 
 #screen_tin{
-    opacity: 0%;
     z-index: 1;
 }
 #nav_dropdown_tin{
@@ -81,15 +80,11 @@ nav{
 @media screen and (max-width: 850px){
     #screen_tin{
         position: fixed;
-        opacity: 100%;
         left: 0;
         top: 0;
     }
     #screen_big{
         display: none;
-    }
-    #fleche_nav_screen{
-        display: block;
     }
 }
 
