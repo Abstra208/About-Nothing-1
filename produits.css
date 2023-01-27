@@ -11,7 +11,7 @@ article{
     flex-direction: column;
 }
 article img{
-    box-sizing: border-box;
+    overflow: hidden;
     position: relative;
     left: 50%;
     top: 50%;
