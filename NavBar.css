@@ -10,6 +10,9 @@ nav{
 }
 
 #screen_tin{
+    position: absolute;
+    left: 0;
+    top: 0;
     z-index: 1;
 }
 #nav_dropdown_tin{
