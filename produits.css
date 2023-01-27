@@ -17,6 +17,7 @@ article img{
     height: 100vh;
     object-fit: contain;
     transform: translate(-50%, -50%);
+    overflow-x: hidden;
 }
 article div{
     display: flex;
