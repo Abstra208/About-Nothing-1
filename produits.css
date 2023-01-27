@@ -17,13 +17,6 @@ article img{
     height: 100vh;
     object-fit: contain;
     transform: translate(-50%, -50%);
-    overflow-x: hidden;
-}
-article div{
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    background-color: white;
     scroll-snap-align: center;
 }
 
