@@ -20,3 +20,13 @@ function img_changer_m(prod_name){
     image.src=db[prod_name];
 }
 
+
+/*test*/
+var element = document.getElementById("article");
+
+if (element.scrollTop === 0) {
+  console.log("L'élément n'est pas en train de se déplacer (snap)");
+} else {
+  console.log("L'élément est en train de se déplacer (snap)");
+}
+
