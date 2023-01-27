@@ -10,7 +10,6 @@ article{
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
-    scrollbar-width: none;
 }
 article img{
     position: relative;
