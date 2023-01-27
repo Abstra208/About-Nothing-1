@@ -3,15 +3,15 @@ article{
     left: 0;
     top: 0;
     height: 100%;
-    width: auto;
+    width: 100%;
     z-index: -1;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 article img{
-    overflow: hidden;
     position: relative;
     left: 50%;
     top: 50%;
@@ -27,5 +27,8 @@ article div{
 }
 
 /*SCREEN SIZE*/
-@media screen and (max-width: 850px){
+@media screen and (max-width: 1592px){
+    article{
+        width: auto;
+    }
 }
