@@ -20,6 +20,3 @@ article img{
     transform: translate(-50%, -50%);
     scroll-snap-align: start;
 }
-
-/*SCREEN SIZE*/
-@media screen and (max-width: 1592px){}
