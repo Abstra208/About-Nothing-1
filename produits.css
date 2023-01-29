@@ -22,7 +22,6 @@ article img{
 }
 article h1{
     position: relative;
-    height: 100vh;
     left: 50%;
     transform: translate(-50%);
 }
