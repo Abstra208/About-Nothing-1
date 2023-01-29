@@ -34,7 +34,7 @@ function img_changer_m(prod_name){
 const checkVisibility = () => {
     if (window.location.pathname === '/index.html'){
         const produits = img_produits.getBoundingClientRect();
-        const about = img_about.getBoundingClientRect();   
+        const about = img_about.getBoundingClientRect();
         
         const produitsInFrame = (produits.top >= 0 && produits.left >= 0 && produits.bottom <= window.innerHeight && produits.right <= window.innerWidth);
         const aboutInFrame = (about.top >= 0 && about.left >= 0 && about.bottom <= window.innerHeight && about.right <= window.innerWidth);
@@ -67,7 +67,7 @@ const checkVisibility = () => {
         }
         if (power_45InFrame){
             console.log('Power 45 is in frame');
-        }        
+        }
     }
 };
 
