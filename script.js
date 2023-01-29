@@ -26,12 +26,6 @@ function img_changer_m(prod_name){
 }
 
 
-/*test*/
-var element = document.getElementById("article");
-
-if (element.scrollTop === 0) {
-  console.log("L'élément n'est pas en train de se déplacer (snap)");
-} else {
-  console.log("L'élément est en train de se déplacer (snap)");
-}
-
+const element = document.getElementById("produits");
+const isSnapped = window.getComputedStyle(element, null).getPropertyValue("scroll-snap-align") === "start";
+console.log(isSnapped);
