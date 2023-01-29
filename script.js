@@ -48,24 +48,26 @@ const checkVisibility = () => {
     const ear_1InFrame = (ear_1.top >= 0 && ear_1.left >= 0 && ear_1.bottom <= window.innerHeight && ear_1.right <= window.innerWidth);
     const power_45InFrame = (power_45.top >= 0 && power_45.left >= 0 && power_45.bottom <= window.innerHeight && power_45.right <= window.innerWidth);
 
-    if (produitsInFrame) {
-        console.log('Produits is in frame');
-    }
-    if (aboutInFrame) {
-        console.log('About is in frame');
-    }
-
-    if (phone_1InFrame){
-        console.log('Phone 1 is in frame');
-    }
-    if (ear_stickInFrame){
-        console.log('Ear stick is in frame');
-    }
-    if (ear_1InFrame){
-        console.log('Ear 1 is in frame');
-    }
-    if (power_45InFrame){
-        console.log('Power 45 is in frame');
+    if (window.location === 'index.html'){
+        if (produitsInFrame) {
+            console.log('Produits is in frame');
+        }
+        if (aboutInFrame) {
+            console.log('About is in frame');
+        }
+    } else {
+        if (phone_1InFrame){
+            console.log('Phone 1 is in frame');
+        }
+        if (ear_stickInFrame){
+            console.log('Ear stick is in frame');
+        }
+        if (ear_1InFrame){
+            console.log('Ear 1 is in frame');
+        }
+        if (power_45InFrame){
+            console.log('Power 45 is in frame');
+        }        
     }
 };
 
