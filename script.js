@@ -20,7 +20,6 @@ function img_changer_m(prod_name){
     image.src=db[prod_name];
 }
 
-
-const element = document.getElementById("produits");
-const isSnapped = window.getComputedStyle(element, null).getPropertyValue("scroll-snap-align") === "start";
-console.log(isSnapped);
+const element = document.querySelector('#produits');
+const snapAlign = getComputedStyle(element).scrollSnapAlign;
+console.log(snapAlign);
