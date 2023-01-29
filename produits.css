@@ -23,4 +23,5 @@ article img{
 article div h1{
     height: 100vh;
     position: relative;
+    left: 50%;
 }
