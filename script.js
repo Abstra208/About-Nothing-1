@@ -32,5 +32,5 @@ const checkVisibility = () => {
   }
 };
 
-setInterval(checkVisibility, 200);
+setInterval(checkVisibility, 500);
 
