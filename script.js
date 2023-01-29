@@ -21,7 +21,10 @@ function img_changer_m(prod_name){
 }
 
 const element = document.querySelector('#produits');
-const snapAlign = getComputedStyle(element).scrollSnapAlign;
-if (snapAlign === 'start'){
-    console.log("work!")
+const rect = element.getBoundingClientRect();
+const isInFrame = (rect.top >= 0 && rect.left >= 0 && rect.bottom <= window.innerHeight && rect.right <= window.innerWidth);
+if (isInFrame) {
+  console.log('Element is in frame');
+} else {
+  console.log('Element is NOT in frame');
 }
