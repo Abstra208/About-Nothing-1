@@ -20,13 +20,17 @@ function img_changer_m(prod_name){
     image.src=db[prod_name];
 }
 
-function load(){
-    const element = document.querySelector('#produits');
-    const rect = element.getBoundingClientRect();
-    const isInFrame = (rect.top >= 0 && rect.left >= 0 && rect.bottom <= window.innerHeight && rect.right <= window.innerWidth);
-    if (isInFrame) {
+const element = document.querySelector('#produits');
+
+const checkVisibility = () => {
+  const rect = element.getBoundingClientRect();
+  const isInFrame = (rect.top >= 0 && rect.left >= 0 && rect.bottom <= window.innerHeight && rect.right <= window.innerWidth);
+  if (isInFrame) {
     console.log('Element is in frame');
-    } else {
+  } else {
     console.log('Element is NOT in frame');
-    }
-}
+  }
+};
+
+setInterval(checkVisibility, 500);
+
