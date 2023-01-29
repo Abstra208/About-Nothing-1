@@ -73,4 +73,5 @@ const checkVisibility = () => {
 
 
 setInterval(checkVisibility, 500);
+console.log(`${document.title}`)
 
