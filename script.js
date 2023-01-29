@@ -1,4 +1,7 @@
-document.getElementsByClassName("article").focus();
+function onload(){
+    document.getElementsByClassName("article").focus();
+}
+
 
 function home(){
     window.location="index.html"
