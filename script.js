@@ -22,4 +22,6 @@ function img_changer_m(prod_name){
 
 const element = document.querySelector('#produits');
 const snapAlign = getComputedStyle(element).scrollSnapAlign;
-console.log(snapAlign);
+if (snapAlign === 'start'){
+    console.log("work!")
+}
