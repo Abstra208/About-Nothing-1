@@ -1,4 +1,4 @@
-document.getElementById("article").focus();
+document.getElementsByClassName("article").focus();
 
 function home(){
     window.location="index.html"
