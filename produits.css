@@ -2,8 +2,8 @@ article{
     position: absolute;
     left: 0;
     top: 0;
-    max-height: 100vh;
-    max-width: 100vw;
+    height: 100%;
+    width: 100%;
     z-index: -1;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
@@ -21,8 +21,8 @@ article img{
     scroll-snap-align: start;
 }
 article h1{
-    height: 100%;
     position: relative;
+    height: 100%;
     left: 50%;
     transform: translate(-50%);
 }
