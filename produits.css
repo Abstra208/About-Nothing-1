@@ -20,7 +20,7 @@ article img{
     transform: translate(-50%, -50%);
     scroll-snap-align: start;
 }
-.img_text{
+article div h1{
     position: relative;
     left: 50%;
     top: 50%;
