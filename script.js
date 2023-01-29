@@ -1,3 +1,5 @@
+document.getElementById("article").focus();
+
 function home(){
     window.location="index.html"
 }
