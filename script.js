@@ -32,23 +32,13 @@ function img_changer_m(prod_name){
 
 
 const checkVisibility = () => {
-    const produits = img_produits.getBoundingClientRect();
-    const about = img_about.getBoundingClientRect();
-
-    const phone_1 = img_phone1.getBoundingClientRect();
-    const ear_stick = img_earstick.getBoundingClientRect();
-    const ear_1 = img_ear1.getBoundingClientRect();
-    const power_45 = img_power45.getBoundingClientRect();
-
-    const produitsInFrame = (produits.top >= 0 && produits.left >= 0 && produits.bottom <= window.innerHeight && produits.right <= window.innerWidth);
-    const aboutInFrame = (about.top >= 0 && about.left >= 0 && about.bottom <= window.innerHeight && about.right <= window.innerWidth);
-
-    const phone_1InFrame = (phone_1.top >= 0 && phone_1.left >= 0 && phone_1.bottom <= window.innerHeight && phone_1.right <= window.innerWidth);
-    const ear_stickInFrame = (ear_stick.top >= 0 && ear_stick.left >= 0 && ear_stick.bottom <= window.innerHeight && ear_stick.right <= window.innerWidth);
-    const ear_1InFrame = (ear_1.top >= 0 && ear_1.left >= 0 && ear_1.bottom <= window.innerHeight && ear_1.right <= window.innerWidth);
-    const power_45InFrame = (power_45.top >= 0 && power_45.left >= 0 && power_45.bottom <= window.innerHeight && power_45.right <= window.innerWidth);
-
     if (window.location === 'index.html'){
+        const produits = img_produits.getBoundingClientRect();
+        const about = img_about.getBoundingClientRect();   
+        
+        const produitsInFrame = (produits.top >= 0 && produits.left >= 0 && produits.bottom <= window.innerHeight && produits.right <= window.innerWidth);
+        const aboutInFrame = (about.top >= 0 && about.left >= 0 && about.bottom <= window.innerHeight && about.right <= window.innerWidth);
+
         if (produitsInFrame) {
             console.log('Produits is in frame');
         }
@@ -56,6 +46,16 @@ const checkVisibility = () => {
             console.log('About is in frame');
         }
     } else {
+        const phone_1 = img_phone1.getBoundingClientRect();
+        const ear_stick = img_earstick.getBoundingClientRect();
+        const ear_1 = img_ear1.getBoundingClientRect();
+        const power_45 = img_power45.getBoundingClientRect();
+
+        const phone_1InFrame = (phone_1.top >= 0 && phone_1.left >= 0 && phone_1.bottom <= window.innerHeight && phone_1.right <= window.innerWidth);
+        const ear_stickInFrame = (ear_stick.top >= 0 && ear_stick.left >= 0 && ear_stick.bottom <= window.innerHeight && ear_stick.right <= window.innerWidth);
+        const ear_1InFrame = (ear_1.top >= 0 && ear_1.left >= 0 && ear_1.bottom <= window.innerHeight && ear_1.right <= window.innerWidth);
+        const power_45InFrame = (power_45.top >= 0 && power_45.left >= 0 && power_45.bottom <= window.innerHeight && power_45.right <= window.innerWidth);
+
         if (phone_1InFrame){
             console.log('Phone 1 is in frame');
         }
