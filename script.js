@@ -26,9 +26,9 @@ const checkVisibility = () => {
   const rect = element.getBoundingClientRect();
   const isInFrame = (rect.top >= 0 && rect.left >= 0 && rect.bottom <= window.innerHeight && rect.right <= window.innerWidth);
   if (isInFrame) {
-    console.log('Element is in frame');
+    console.log((element) + ' is NOT in frame');
   } else {
-    console.log('Element is NOT in frame');
+    console.log((element) + ' is in frame');
   }
 };
 
