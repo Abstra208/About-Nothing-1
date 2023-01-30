@@ -14,8 +14,13 @@ article{
 article div{
     width: 100vw;
     height: 100vh;
-    object-fit: contain;
     scroll-snap-align: start;
 }
-/*article img{}
+article img{
+    height: 100%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    object-fit: contain;
+}
 article h1{}
