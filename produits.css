@@ -21,7 +21,7 @@ article img{
     scroll-snap-align: start;
 }
 article h1{
-    position: absolute;
+    position: relative;
     left: 50%;
     transform: translate(-50%);
 }
