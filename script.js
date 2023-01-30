@@ -11,8 +11,11 @@ const img_power45 = document.querySelector('#img_power45');
 function home(){
     window.location="accueil"
 }
-function tous_les_produits(){
+function produits(){
     window.location="produits"
+}
+function about(){
+    window.location="about"
 }
 
 function nav_screen(){
