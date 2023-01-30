@@ -11,7 +11,7 @@ article{
     flex-direction: column;
     overflow-x: hidden;
 }
-article img{
+article div{
     position: relative;
     left: 50%;
     top: 50%;
@@ -20,8 +20,5 @@ article img{
     transform: translate(-50%, -50%);
     scroll-snap-align: start;
 }
-article h1{
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
-}
+/*article img{}
+article h1{}
