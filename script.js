@@ -12,7 +12,7 @@ function home(){
     window.location="index"
 }
 function produits(){
-    window.location="products"
+    window.location="produits"
 }
 function about(){
     window.location="about"
