@@ -81,6 +81,9 @@ const checkVisibility = () => {
         }
         else{
             console.log(phone_1InFrame)
+            console.log(ear_stickInFrame)
+            console.log(ear_1InFrame)
+            console.log(power_45InFrame)
         }
     }
 };
