@@ -79,6 +79,6 @@ const checkVisibility = () => {
 };
 
 
-setInterval(checkVisibility, 500);
+setInterval(checkVisibility, 0);
 console.log(document.location.pathname);
 
