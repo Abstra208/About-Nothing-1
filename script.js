@@ -55,9 +55,9 @@ const checkVisibility = () => {
         const power_45 = img_power45.getBoundingClientRect();
 
         const phone_1InFrame = (phone_1.top >= 0 && phone_1.bottom >= 0);
-        const ear_stickInFrame = (ear_stick.top >= 0 && ear_stick.bottom <= window.innerHeight);
-        const ear_1InFrame = (ear_1.top >= 0 && ear_1.bottom <= window.innerHeight);
-        const power_45InFrame = (power_45.top >= 0 && power_45.bottom <= window.innerHeight);
+        const ear_stickInFrame = (ear_stick.top >= 0 && ear_stick.bottom >= 0);
+        const ear_1InFrame = (ear_1.top >= 0 && ear_1.bottom >= 0);
+        const power_45InFrame = (power_45.top >= 0 && power_45.bottom >= 0);
 
         if (phone_1InFrame){
             console.log('Phone 1 is in frame');
