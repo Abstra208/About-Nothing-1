@@ -35,7 +35,7 @@ function img_changer_m(prod_name){
 
 
 const checkVisibility = () => {
-    if (window.location.pathname === ""){
+    if (window.location.pathname === "/index.html"){
         const produits = img_produits.getBoundingClientRect();
         const about = img_about.getBoundingClientRect();
         
