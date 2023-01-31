@@ -49,8 +49,6 @@ const checkVisibility = () => {
             console.log('About is in frame');
         }
     } else {
-        const nav_text = document.getElementsByClassName("nav_text");
-
         const phone_1 = img_phone1.getBoundingClientRect();
         const ear_stick = img_earstick.getBoundingClientRect();
         const ear_1 = img_ear1.getBoundingClientRect();
@@ -62,18 +60,22 @@ const checkVisibility = () => {
         const power_45InFrame = (power_45.top >= 0 && power_45.left >= 0 && power_45.bottom <= window.innerHeight && power_45.right <= window.innerWidth);
 
         if (phone_1InFrame){
+            const nav_text = document.getElementsByClassName("nav_text");
             console.log('Phone 1 is in frame');
             nav_text.style.color="black"
         }
         if (ear_stickInFrame){
+            const nav_text = document.getElementsByClassName("nav_text");
             console.log('Ear stick is in frame');
             nav_text.style.color="black"
         }
         if (ear_1InFrame){
+            const nav_text = document.getElementsByClassName("nav_text");
             console.log('Ear 1 is in frame');
             nav_text.style.color="white"
         }
         if (power_45InFrame){
+            const nav_text = document.getElementsByClassName("nav_text");
             console.log('Power 45 is in frame');
             nav_text.style.color="white"
         }
