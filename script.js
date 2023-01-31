@@ -44,9 +44,15 @@ const checkVisibility = () => {
 
         if (produitsInFrame) {
             console.log('Produits is in frame');
+            document.querySelector('#products_nav').style.color="white";
+            document.querySelector('#about_nav').style.color="white";
+            document.querySelector('#nav_title').style.color="white";
         }
         if (aboutInFrame) {
             console.log('About is in frame');
+            document.querySelector('#products_nav').style.color="black";
+            document.querySelector('#about_nav').style.color="black";
+            document.querySelector('#nav_title').style.color="black";
         }
     } else {
         const phone_1 = img_phone1.getBoundingClientRect();
