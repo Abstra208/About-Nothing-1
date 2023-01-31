@@ -1,5 +1,5 @@
-/about /about.html 301
-/products /produits.html 301
-/accueil /accueil.html 301
+/about /about.html 200
+/products /produits.html 200
+/accueil /accueil.html 200
 
 /* /404.html 404
