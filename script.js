@@ -1,4 +1,6 @@
 /*VARIABLE*/
+const nav_text = document.querySelector(".nav_text");
+
 const img_produits = document.querySelector('#img_produits');
 const img_about = document.querySelector('#img_about');
 
@@ -61,15 +63,19 @@ const checkVisibility = () => {
 
         if (phone_1InFrame){
             console.log('Phone 1 is in frame');
+            nav_texts.style.color="black"
         }
         if (ear_stickInFrame){
             console.log('Ear stick is in frame');
+            nav_texts.style.color="black"
         }
         if (ear_1InFrame){
             console.log('Ear 1 is in frame');
+            nav_texts.style.color="white"
         }
         if (power_45InFrame){
             console.log('Power 45 is in frame');
+            nav_texts.style.color="white"
         }
     }
 };
