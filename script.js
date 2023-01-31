@@ -54,10 +54,10 @@ const checkVisibility = () => {
         const ear_1 = img_ear1.getBoundingClientRect();
         const power_45 = img_power45.getBoundingClientRect();
 
-        const phone_1InFrame = (phone_1.top >= 0 && phone_1.left >= 0 && phone_1.bottom <= window.innerHeight && phone_1.right <= window.innerWidth);
-        const ear_stickInFrame = (ear_stick.top >= 0 && ear_stick.left >= 0 && ear_stick.bottom <= window.innerHeight && ear_stick.right <= window.innerWidth);
-        const ear_1InFrame = (ear_1.top >= 0 && ear_1.left >= 0 && ear_1.bottom <= window.innerHeight && ear_1.right <= window.innerWidth);
-        const power_45InFrame = (power_45.top >= 0 && power_45.left >= 0 && power_45.bottom <= window.innerHeight && power_45.right <= window.innerWidth);
+        const phone_1InFrame = (phone_1.top >= 0 && phone_1.bottom <= window.innerHeight);
+        const ear_stickInFrame = (ear_stick.top >= 0 && ear_stick.bottom <= window.innerHeight);
+        const ear_1InFrame = (ear_1.top >= 0 && ear_1.bottom <= window.innerHeight);
+        const power_45InFrame = (power_45.top >= 0 && power_45.bottom <= window.innerHeight);
 
         if (phone_1InFrame){
             console.log('Phone 1 is in frame');
@@ -74,12 +74,6 @@ const checkVisibility = () => {
         if (power_45InFrame){
             console.log('Power 45 is in frame');
             document.querySelector('.nav_text').style.color="white";
-        }
-        else{
-            console.log(phone_1InFrame)
-            console.log(ear_stickInFrame)
-            console.log(ear_1InFrame)
-            console.log(power_45InFrame)
         }
     }
 };
