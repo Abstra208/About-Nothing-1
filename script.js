@@ -35,7 +35,7 @@ function img_changer_m(prod_name){
 
 
 const checkVisibility = () => {
-    if (window.location.pathname === "/index.html"){
+    if (window.location.pathname.split("/").pop() === ""){
         const produits = img_produits.getBoundingClientRect();
         const about = img_about.getBoundingClientRect();
         
@@ -95,8 +95,7 @@ const checkVisibility = () => {
         
     }
     else {
-        var pageName = window.location.pathname.split("/").pop();
-        console.log(pageName);
+        console.log("Non")
     }
 };
 
