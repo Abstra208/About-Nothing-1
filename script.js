@@ -80,7 +80,7 @@ const checkVisibility = () => {
             nav_text.style.color="white"
         }
         else{
-            console.log("erreur")
+            console.log(phone_1InFrame)
         }
     }
 };
