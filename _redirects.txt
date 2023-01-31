@@ -1,5 +1,5 @@
 /about /about.html 200
-/products /produits.html 200
+/produits /produits.html 200
 /accueil /accueil.html 200
 
 /* /404.html 404
