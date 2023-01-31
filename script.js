@@ -39,8 +39,8 @@ const checkVisibility = () => {
         const produits = img_produits.getBoundingClientRect();
         const about = img_about.getBoundingClientRect();
         
-        const produitsInFrame = (produits.top >= 0 && produits.left >= 0 && produits.bottom <= window.innerHeight && produits.right <= window.innerWidth);
-        const aboutInFrame = (about.top >= 0 && about.left >= 0 && about.bottom <= window.innerHeight && about.right <= window.innerWidth);
+        const produitsInFrame = (produits.top >= 0 && produits.bottom <= 0);
+        const aboutInFrame = (about.top >= 0 && about.bottom <= window.innerHeigh);
 
         if (produitsInFrame) {
             console.log('Produits is in frame');
