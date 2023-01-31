@@ -35,7 +35,7 @@ function img_changer_m(prod_name){
 
 
 const checkVisibility = () => {
-    if (window.location.href === 'https://marques.cf'){
+    if (window.location.hostname === 'marques.cf'){
         const produits = img_produits.getBoundingClientRect();
         const about = img_about.getBoundingClientRect();
         
