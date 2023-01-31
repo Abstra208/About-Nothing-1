@@ -49,7 +49,7 @@ const checkVisibility = () => {
             console.log('About is in frame');
         }
     } else {
-        const nav_text = document.querySelector(".nav_text");
+        const nav_text = document.getElementsByClassName("nav_text");
 
         const phone_1 = img_phone1.getBoundingClientRect();
         const ear_stick = img_earstick.getBoundingClientRect();
