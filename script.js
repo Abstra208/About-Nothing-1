@@ -79,6 +79,9 @@ const checkVisibility = () => {
             console.log('Power 45 is in frame');
             nav_text.style.color="white"
         }
+        else{
+            console.log("erreur")
+        }
     }
 };
 
