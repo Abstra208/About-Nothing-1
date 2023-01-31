@@ -61,19 +61,27 @@ const checkVisibility = () => {
 
         if (phone_1InFrame){
             console.log('Phone 1 is in frame');
-            document.querySelector('.nav_text').style.color="black";
+            document.querySelector('#products_nav').style.color="black";
+            document.querySelector('#about_nav').style.color="black";
+            document.querySelector('#nav_title').style.color="black";
         }
         if (ear_stickInFrame){
             console.log('Ear stick is in frame');
-            document.querySelector('.nav_text').style.color="black";
+            document.querySelector('#products_nav').style.color="black";
+            document.querySelector('#about_nav').style.color="black";
+            document.querySelector('#nav_title').style.color="black";
         }
         if (ear_1InFrame){
             console.log('Ear 1 is in frame');
-            document.querySelector('.nav_text').style.color="white";
+            document.querySelector('#products_nav').style.color="white";
+            document.querySelector('#about_nav').style.color="white";
+            document.querySelector('#nav_title').style.color="white";
         }
         if (power_45InFrame){
             console.log('Power 45 is in frame');
-            document.querySelector('.nav_text').style.color="white";
+            document.querySelector('#products_nav').style.color="white";
+            document.querySelector('#about_nav').style.color="white";
+            document.querySelector('#nav_title').style.color="white";
         }
     }
 };
