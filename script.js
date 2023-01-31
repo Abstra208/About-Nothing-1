@@ -35,7 +35,7 @@ function img_changer_m(prod_name){
 
 
 const checkVisibility = () => {
-    if (window.location.url === 'https://marques.cf'){
+    if (window.location.href === 'https://marques.cf'){
         const produits = img_produits.getBoundingClientRect();
         const about = img_about.getBoundingClientRect();
         
@@ -54,7 +54,8 @@ const checkVisibility = () => {
             document.querySelector('#about_nav').style.color="black";
             document.querySelector('#nav_title').style.color="black";
         }
-    } else {
+    }
+    if (window.location.pathname === '/produits') {
         const phone_1 = img_phone1.getBoundingClientRect();
         const ear_stick = img_earstick.getBoundingClientRect();
         const ear_1 = img_ear1.getBoundingClientRect();
@@ -89,6 +90,12 @@ const checkVisibility = () => {
             document.querySelector('#about_nav').style.color="white";
             document.querySelector('#nav_title').style.color="white";
         }
+    }
+    if (window.location.pathname === '/about'){
+        
+    }
+    else {
+        console.log("Something is wrong")
     }
 };
 
