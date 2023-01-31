@@ -55,9 +55,6 @@ nav{
     list-style: none;
     font-size: 0.8rem;
 }
-#screen_big li:hover{
-    cursor: pointer;
-}
 #nav_about:hover #nav_dropdown_abo{
     position: absolute;
     top: 7%;
