@@ -54,7 +54,7 @@ const checkVisibility = () => {
         const ear_1 = img_ear1.getBoundingClientRect();
         const power_45 = img_power45.getBoundingClientRect();
 
-        const phone_1InFrame = (phone_1.top >= 0 && phone_1.bottom <= window.innerHeight);
+        const phone_1InFrame = (phone_1.top >= 0 && phone_1.bottom >= 0);
         const ear_stickInFrame = (ear_stick.top >= 0 && ear_stick.bottom <= window.innerHeight);
         const ear_1InFrame = (ear_1.top >= 0 && ear_1.bottom <= window.innerHeight);
         const power_45InFrame = (power_45.top >= 0 && power_45.bottom <= window.innerHeight);
