@@ -95,7 +95,7 @@ const checkVisibility = () => {
         
     }
     else {
-        console.log("Something is wrong")
+        console.log(window.location.href)
     }
 };
 
