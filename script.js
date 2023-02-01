@@ -19,7 +19,14 @@ function about(){
 }
 
 function nav_screen(){
-    document.getElementById("nav_dropdown_tin").style.display="contents";
+    const nav_dropdown = document.getElementById("nav_dropdown_tin").style.display;
+    
+    if (nav_dropdown === "contents"){
+        nav_dropdown.style.display="none";
+    } else{
+        nav_dropdown.style.display="contents";
+    }
+
 }
 
 function img_changer_p(prod_name){
