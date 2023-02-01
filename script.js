@@ -19,7 +19,7 @@ function about(){
 }
 
 function nav_screen(){
-    document.getElementById("nav_dropdown_tin").className="visible_nav_screen";
+    document.getElementById("nav_dropdown_tin").style.display="contents";
 }
 
 function img_changer_p(prod_name){
