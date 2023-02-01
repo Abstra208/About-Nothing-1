@@ -19,9 +19,10 @@ function about(){
 }
 
 function nav_screen(){
-    const nav_dropdown = document.getElementById("nav_dropdown_tin").style.display;
-    
-    if (nav_dropdown === "contents"){
+    const nav_dropdown_display = document.getElementById("nav_dropdown_tin").style.display;
+    const nav_dropdown = document.getElementById("nav_dropdown_tin");
+
+    if (nav_dropdown_display === 'contents'){
         nav_dropdown.style.display="none";
     } else{
         nav_dropdown.style.display="contents";
