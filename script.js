@@ -27,7 +27,6 @@ function nav_screen(){
     } else{
         nav_dropdown.style.display="contents";
     }
-
 }
 
 function img_changer_p(prod_name){
