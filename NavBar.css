@@ -9,10 +9,6 @@ nav{
     font-weight: 50;
 }
 
-#screen_tin{
-    display: none;
-    z-index: 1;
-}
 #nav_dropdown_tin{
     display: none;
     flex-direction: column;
