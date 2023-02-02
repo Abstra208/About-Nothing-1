@@ -9,6 +9,9 @@ nav{
     font-weight: 50;
 }
 
+#screen_tin{
+    display: none;
+}
 #nav_dropdown_tin{
     display: none;
     flex-direction: column;
@@ -74,8 +77,11 @@ nav{
 }
 
 @media screen and (max-width: 850px){
-    #nav_dropdown_tin{
+    #screen_tin{
         display: contents;
+    }
+    #nav_dropdown_tin{
+        display: none;
         position: fixed;
         top: 50%;
         left: 50%;
