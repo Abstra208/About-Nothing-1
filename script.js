@@ -25,10 +25,10 @@ function nav_screen(){
 
     if (nav_dropdown_display === 'contents'){
         nav_dropdown.style.display="none";
-        fleche_nav_screen.style.transform="rotate(180deg)";
+        fleche_nav_screen.style.transform="rotate(0deg)";
     } else{
         nav_dropdown.style.display="contents";
-        fleche_nav_screen.style.transform="rotate(360deg)";
+        fleche_nav_screen.style.transform="rotate(180deg)";
     }
 }
 
