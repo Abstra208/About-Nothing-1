@@ -21,11 +21,14 @@ function about(){
 function nav_screen(){
     const nav_dropdown_display = document.getElementById("nav_dropdown_tin").style.display;
     const nav_dropdown = document.getElementById("nav_dropdown_tin");
+    const fleche_nav_screen = document.querySelector("#fleche_nav_screen");
 
     if (nav_dropdown_display === 'contents'){
         nav_dropdown.style.display="none";
+        fleche_nav_screen.style.transform="rotate(90deg)";
     } else{
         nav_dropdown.style.display="contents";
+        fleche_nav_screen.style.transform="rotate(1800deg)";
     }
 }
 
