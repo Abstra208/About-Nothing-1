@@ -103,3 +103,7 @@ nav{
     top: 15%;
     left: 2%;
 }
+
+#nav_title, #nav_products, #nav_about{
+    cursor: pointer;
+}
