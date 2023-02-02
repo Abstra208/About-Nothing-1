@@ -17,6 +17,11 @@ nav{
     display: none;
     flex-direction: column;
 }
+#fleche_nav_screen{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
 #screen_big{
     font-family: "Nothing";
