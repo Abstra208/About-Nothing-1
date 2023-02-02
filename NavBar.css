@@ -104,6 +104,6 @@ nav{
     left: 2%;
 }
 
-#nav_title, #nav_products, #nav_about{
+#nav_title, #products_nav, #about_nav{
     cursor: pointer;
 }
