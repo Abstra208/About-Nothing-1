@@ -78,11 +78,12 @@ nav{
 }
 
 @media screen and (max-width: 850px){
-    #screen_tin{
+    #nav_dropdown_tin{
         display: contents;
         position: fixed;
-        top: 23px;
-        left: 23px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
     #screen_big{
         display: none;
