@@ -7,14 +7,20 @@ nav{
     z-index: 999;
     font-family: nothing;
     font-weight: 50;
+    width: 100%;
+    height: 100%;
 }
 
 #screen_tin{
     display: none;
+    width: 100%;
+    height: 100%;
 }
 #nav_dropdown_tin{
     display: none;
     flex-direction: column;
+    width: 100%;
+    height: 100%;
 }
 #fleche_nav_screen{
     position: absolute;
