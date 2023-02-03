@@ -15,13 +15,14 @@ nav{
     display: none;
     width: 100%;
     height: 100%;
+    background-color: black;
 }
 #nav_dropdown_tin{
     display: none;
     flex-direction: column;
     width: 100%;
     height: 100%;
-    color: rgb(126, 28, 28);
+    color: white;
     background-color: black;
 }
 #fleche_nav_screen{
