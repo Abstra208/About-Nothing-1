@@ -1,4 +1,6 @@
 /*VARIABLE*/
+const body = document.querySelector("body");
+
 const img_produits = document.querySelector('#img_produits');
 const img_about = document.querySelector('#img_about');
 
@@ -93,12 +95,14 @@ const checkVisibility = () => {
             document.querySelector('#products_nav').style.color="white";
             document.querySelector('#about_nav').style.color="white";
             document.querySelector('#nav_title').style.color="white";
+            document.querySelector("body").style.background-color="black";
         }
         if (power_45InFrame){
             console.log('Power 45 is in frame');
             document.querySelector('#products_nav').style.color="white";
             document.querySelector('#about_nav').style.color="white";
             document.querySelector('#nav_title').style.color="white";
+            document.querySelector("body").style.background-color="black";
         }
     }
     if (window.location.pathname === '/about'){
