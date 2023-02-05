@@ -22,6 +22,10 @@ nav{
     flex-direction: column;
     width: 100%;
     height: 100%;
+
+}
+.title_nav_tin{
+    display: none;
     color: white;
     background-color: black;
 }
@@ -95,6 +99,9 @@ nav{
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+    .title_nav_tin{
+        display: block;
     }
     #screen_big{
         display: none;
