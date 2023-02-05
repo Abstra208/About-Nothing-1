@@ -95,14 +95,14 @@ const checkVisibility = () => {
             document.querySelector('#products_nav').style.color="white";
             document.querySelector('#about_nav').style.color="white";
             document.querySelector('#nav_title').style.color="white";
-            document.querySelector('#body').style.backgroundColor="black";
+            document.querySelector('body').style.backgroundColor="black";
         }
         if (power_45InFrame){
             console.log('Power 45 is in frame');
             document.querySelector('#products_nav').style.color="white";
             document.querySelector('#about_nav').style.color="white";
             document.querySelector('#nav_title').style.color="white";
-            document.querySelector('#body').style.backgroundColor="black";
+            document.querySelector('body').style.backgroundColor="black";
         }
     }
     if (window.location.pathname === '/about'){
