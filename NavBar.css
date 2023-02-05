@@ -24,7 +24,7 @@ nav{
     height: 100%;
 
 }
-.title_nav_tin{
+..nav_dropdown_tin li{
     display: none;
     color: white;
     background-color: black;
@@ -100,7 +100,7 @@ nav{
         left: 50%;
         transform: translate(-50%, -50%);
     }
-    .title_nav_tin{
+    .nav_dropdown_tin li{
         display: block;
     }
     #screen_big{
