@@ -24,7 +24,7 @@ nav{
     height: 100%;
 
 }
-..nav_dropdown_tin li{
+.nav_dropdown_tin li{
     display: none;
     color: white;
     background-color: black;
