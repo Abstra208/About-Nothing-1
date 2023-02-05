@@ -83,14 +83,14 @@ const checkVisibility = () => {
             document.querySelector('#products_nav').style.color="black";
             document.querySelector('#about_nav').style.color="black";
             document.querySelector('#nav_title').style.color="black";
-            document.querySelector('body').style.backgroundColor="#ffffff";
+            document.querySelector('body').style.backgroundColor="#EBEEEA";
         }
         if (ear_stickInFrame){
             console.log('Ear stick is in frame');
             document.querySelector('#products_nav').style.color="black";
             document.querySelector('#about_nav').style.color="black";
             document.querySelector('#nav_title').style.color="black";
-            document.querySelector('body').style.backgroundColor="#ffffff";
+            document.querySelector('body').style.backgroundColor="#EBEEEA";
         }
         if (ear_1InFrame){
             console.log('Ear 1 is in frame');
