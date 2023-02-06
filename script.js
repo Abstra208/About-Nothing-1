@@ -20,6 +20,22 @@ function about(){
     window.location="about"
 }
 
+function phone_1(){
+    window.location="phone-1"
+}
+function audio(){
+    window.location="audio"
+}
+function ear_stick(){
+    window.location="ear-stick"
+}
+function ear_1(){
+    window.location="ear-1"
+}
+function power_45(){
+    window.location="power-45"
+}
+
 function nav_screen(){
     const nav_dropdown_display = document.getElementById("nav_dropdown_tin").style.display;
     const nav_dropdown = document.getElementById("nav_dropdown_tin");
