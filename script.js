@@ -21,19 +21,19 @@ function about(){
 }
 
 function phone_1(){
-    window.location="phone-1"
+    window.location="/produits/phone-1"
 }
 function audio(){
-    window.location="audio"
+    window.location="/pages/audio"
 }
 function ear_stick(){
-    window.location="ear-stick"
+    window.location="/produits/ear-stick"
 }
 function ear_1(){
-    window.location="ear-1"
+    window.location="/produits/ear-1"
 }
 function power_45(){
-    window.location="power-45"
+    window.location="/produits/power-45"
 }
 
 function nav_screen(){
