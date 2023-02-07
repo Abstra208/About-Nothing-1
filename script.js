@@ -63,27 +63,9 @@ function img_changer_m(prod_name){
 
 
 const checkVisibility = () => {
-    if (window.location.pathname.split("/").pop() === ""){
-        const produits = img_produits.getBoundingClientRect();
-        const about = img_about.getBoundingClientRect();
-        
-        const produitsInFrame = (produits.top >= 0 && produits.bottom <= 0);
-        const aboutInFrame = (about.top >= 0 && about.bottom <= window.innerHeigh);
+    const body = document.querySelector("body").id;
 
-        if (produitsInFrame) {
-            console.log('Produits is in frame');
-            document.querySelector('#products_nav').style.color="white";
-            document.querySelector('#about_nav').style.color="white";
-            document.querySelector('#nav_title').style.color="white";
-        }
-        if (aboutInFrame) {
-            console.log('About is in frame');
-            document.querySelector('#products_nav').style.color="black";
-            document.querySelector('#about_nav').style.color="black";
-            document.querySelector('#nav_title').style.color="black";
-        }
-    }
-    if (window.location.pathname === '/produits') {
+    if (body === ("produits")) {
         const power_45 = img_power45.getBoundingClientRect();
         const power_45InFrame = (power_45.top === 0);
         if (power_45InFrame){
