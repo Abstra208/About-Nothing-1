@@ -32,7 +32,6 @@ article h1{
     top: 0;
     bottom: 0;
     right: 0;
-    transform: translate(-50%);
     font-size: 4vw;
     display: flex;
     justify-content: center;
