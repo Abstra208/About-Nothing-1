@@ -72,23 +72,27 @@ nav{
     list-style: none;
     font-size: 0.8rem;
 }
-#nav_about:hover #nav_dropdown_abo{
+#nav_dropdown_abo{
     position: absolute;
     top: 7%;
     font-size: .5rem;
     width: 100vw;
     height: 50vh;
+    background-color: black;
+}
+#nav_about:hover #nav_dropdown_abo{
     display: contents;
+}
+#nav_dropdown_pro{
+    position: absolute;
+    top: 7%;
+    font-size: .5rem;
+    width: 100vw;
+    height: 50vh;
     background-color: black;
 }
 #nav_products:hover #nav_dropdown_pro{
-    position: absolute;
-    top: 7%;
-    font-size: .5rem;
-    width: 100vw;
-    height: 50vh;
     display: contents;
-    background-color: black;
 }
 
 @media screen and (max-width: 850px){
