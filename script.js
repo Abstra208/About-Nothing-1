@@ -16,11 +16,13 @@ const navigation_produits = document.querySelector("#nav_produits")
 
 function nav_dropdown_about(){
     navigation_about.style.backgroundColor="black";
+}
+function nav_dropdown_produits(){
     navigation_produits.style.backgroundColor="black";
 }
 function nav_dropdown_none(){
     navigation_about.style.backgroundColor="transparent";
-    navigator_produits.style.backgroundColor="transparent";
+    navigation_produits.style.backgroundColor="transparent";
 }
 
 function home(){
