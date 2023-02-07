@@ -68,6 +68,7 @@ const checkVisibility = () => {
     if (body === ("produits")) {
         const power_45 = img_power45.getBoundingClientRect();
         const power_45InFrame = (power_45.top === 0);
+
         if (power_45InFrame){
             document.querySelector('#products_nav').style.color="white";
             document.querySelector('#about_nav').style.color="white";
@@ -78,11 +79,8 @@ const checkVisibility = () => {
             document.querySelector('#nav_title').style.color="black";
         }
     }
-    if (window.location.pathname === '/about'){
-        
-    }
     else {
-        console.log("Non")
+        console.log(body)
     }
 };
 
