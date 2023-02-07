@@ -89,7 +89,7 @@ nav{
     width: 100vw;
     height: 50vh;
 }
-#nav_products:hover #nav_dropdown_pro{
+#nav_produits:hover #nav_dropdown_pro{
     display: contents;
 }
 
