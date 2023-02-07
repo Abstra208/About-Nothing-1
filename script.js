@@ -14,23 +14,23 @@ const img_power45 = document.querySelector('#img_power45');
 const navigation_about = document.querySelector("#nav_about");
 const navigation_produits = document.querySelector("#nav_produits");
 const nav_title = document.querySelectorAll(".nav_title");
-const nav_screen = document.querySelector("#screen_big");
+const screen = document.querySelector("#screen_big");
 
 function nav_dropdown_about(){
     navigation_about.style.backgroundColor="black";
     nav_title.style.color="white";
-    nav_screen.style.backgroundColor="black";
+    screen.style.backgroundColor="black";
 }
 function nav_dropdown_produits(){
     navigation_produits.style.backgroundColor="black";
     nav_title.style.color="white";
-    nav_screen.style.backgroundColor="black";
+    screen.style.backgroundColor="black";
 }
 function nav_dropdown_none(){
     navigation_about.style.backgroundColor="transparent";
     navigation_produits.style.backgroundColor="transparent";
     nav_title.style.color="black";
-    nav_screen.style.backgroundColor="transparent";
+    screen.style.backgroundColor="transparent";
 }
 
 function home(){
