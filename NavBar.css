@@ -65,7 +65,7 @@ nav{
     font-size: 0.8rem;
 }
 .nav_dropdown{
-    position: absolute;
+    position: relative;
     top: 7%;
     font-size: .5rem;
     height: 100%;
