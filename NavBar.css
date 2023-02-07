@@ -78,7 +78,6 @@ nav{
     font-size: .5rem;
     width: 100vw;
     height: 50vh;
-    background-color: black;
 }
 #nav_about:hover #nav_dropdown_abo{
     display: contents;
@@ -89,7 +88,6 @@ nav{
     font-size: .5rem;
     width: 100vw;
     height: 50vh;
-    background-color: black;
 }
 #nav_products:hover #nav_dropdown_pro{
     display: contents;

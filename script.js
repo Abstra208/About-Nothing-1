@@ -11,7 +11,7 @@ const img_power45 = document.querySelector('#img_power45');
 
 
 /*navbar*/
-const navigation = document.querySelector("nav");
+const navigation = document.querySelector("#nav_about");
 
 function nav_dropdown_about(){
     navigation.style.backgroundColor="black";
