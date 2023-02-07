@@ -65,20 +65,21 @@ nav{
     font-size: 0.8rem;
 }
 .nav_dropdown{
-    display: none;
     position: absolute;
     top: 7%;
     font-size: .5rem;
-    width: 100vw;
-    height: 50vh;
 }
-#nav_about:hover .nav_dropdown{
+#nav_about:hover .background_black{
     display: contents;
 }
-#nav_products:hover .nav_dropdown{
+#nav_products:hover .background_black{
     display: contents;
 }
 .background_black{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
     background-color: black;
     height: 50vh;
     width: 100vw;
