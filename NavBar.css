@@ -60,36 +60,22 @@ nav{
     width: 100vw;
     height: 50vh;
 }
-#screen_big #nav_dropdown_pro{
-    background-color: black;
-    display: none;
-}
-#screen_big #nav_dropdown_abo{
-    background-color: black;
-    display: none;
-}
 #screen_big li{
     list-style: none;
     font-size: 0.8rem;
 }
-#nav_dropdown_abo{
+.nav_dropdown{
+    display: none;
     position: absolute;
     top: 7%;
     font-size: .5rem;
     width: 100vw;
     height: 50vh;
 }
-#nav_about:hover #nav_dropdown_abo{
+#nav_about:hover .nav_dropdown{
     display: contents;
 }
-#nav_dropdown_pro{
-    position: absolute;
-    top: 7%;
-    font-size: .5rem;
-    width: 100vw;
-    height: 50vh;
-}
-#nav_products:hover #nav_dropdown_pro{
+#nav_products:hover .nav_dropdown{
     display: contents;
 }
 .background_black{
