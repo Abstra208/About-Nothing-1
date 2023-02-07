@@ -25,7 +25,8 @@ article img{
 }
 article h1{
     position: relative;
-    left: -50%;
+    left: 50%;
+    top: 20%;
     transform: translate(-50%);
     font-size: 4vw;
 }
