@@ -78,7 +78,7 @@ nav{
     display: contents;
 }
 .background_black{
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     background-color: black;
