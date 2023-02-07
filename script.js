@@ -16,6 +16,9 @@ const navigation = document.querySelector("#nav_about");
 function nav_dropdown_about(){
     navigation.style.backgroundColor="black";
 }
+function nav_dropdown_none(){
+    navigation.style.backgroundColor="none";
+}
 
 function home(){
     window.location.href="https://marques.cf/index"
