@@ -17,7 +17,7 @@ function nav_dropdown_about(){
     navigation.style.backgroundColor="black";
 }
 function nav_dropdown_none(){
-    navigation.style.backgroundColor="transparence";
+    navigation.style.backgroundColor="transparent";
 }
 
 function home(){
