@@ -15,6 +15,56 @@
     <script defer src="script.js"></script>
 </head>
 <body>
-    <a href="img/2profil.png" download>asd</a>
+    <nav id="nav">
+        <div id="screen_tin">
+            <img onclick="nav_screen()" id="fleche_nav_screen" src="img/fleche.png" height="50" alt="">
+            <div id="nav_dropdown_tin">
+                <li>
+                    <h1 class="title_nav_tin" onclick="home()">Accueil</h1>
+                </li>
+                <li>
+                    <h1 class="title_nav_tin" onclick="produits()">Les produits</h1>
+                    <div>
+                        <li><h1 onclick="phone_1()">Phone 1</h1></li>
+                        <li><h1 onclick="ear_stick()">Ear (stick)</h1></li>
+                        <li><h1 onclick="ear_1()">Ear (1)</h1></li>
+                        <li><h1 onclick="power_45()">Power (45w)</h1></li>
+                    </div>
+                </li>
+                <li>
+                    <h1 class="title_nav_tin" onclick="about()">À propos</h1>
+                    <div>
+                        <li><h1>Carl Pei</h1></li>
+                        <li><h1>Ludovic M.</h1></li>
+                    </div>
+                </li>
+            </div>
+        </div>
+        <div id="screen_big">
+            <li><h1 onclick="home()" id="nav_title">Nothing (R)</h1></li>
+            <li onmouseover="nav_dropdown_produits()" onmouseout="nav_dropdown_none()" class="nav_title" id="nav_produits">
+                <h1 class="nav_title" id="products_nav" onclick="produits()">Les produits (4)</h1>
+                <div id="nav_dropdown_pro">
+                    <h1 onclick="tous_les_produits()" class="h2_pointer">Tous les produits</h2>
+                    <h2 onclick="phone_1()" onmouseover="img_changer_p('Phone_1')" onmouseout="img_changer_p('audio')" class="h2_pointer"><span>></span> Phone (1)</h2>
+                    <br>
+                    <h2 onclick="audio()" class="h2_pointer"><span>></span> Audio</h2>
+                    <h2 onclick="ear_stick()" onmouseover="img_changer_p('ear_stick')" onmouseout="img_changer_p('audio')" class="h2_pointer"><span>></span> Ear (stick)</h2>
+                    <h2 onclick="ear_1()" onmouseover="img_changer_p('ear_1')" onmouseout="img_changer_p('audio')" class="h2_pointer"><span>></span> Ear (1)</h2>
+                    <br>
+                    <h1 class="h2_pointer">Tous les accessoires</h2>
+                    <h2 onclick="power_45()" onmouseover="img_changer_p('power_45w')" onmouseout="img_changer_p('audio')" class="h2_pointer"><span>></span> Power (45w)</h2>
+                </div>
+            </li>
+            <li onmouseover="nav_dropdown_about()" onmouseout="nav_dropdown_none()" class="nav_title" id="nav_about">
+                <h1 class="nav_title" id="about_nav" onclick="about()">À propos (2)</h1>
+                <div id="nav_dropdown_abo">
+                    <h2 class="h2_pointer">Tous le monde</h2>
+                    <h2 onmouseover="img_changer_m('Carl')" onmouseout="img_changer_m('noir')" class="h2_pointer"><span>></span> Carl Pei</h2>
+                    <h2 onmouseover="img_changer_m('Ludovic')" onmouseout="img_changer_m('noir')" class="h2_pointer"><span>></span> Ludovic M.</h2>
+                </div>
+            </li>
+        </div>
+    </nav>
 </body>
 </html>

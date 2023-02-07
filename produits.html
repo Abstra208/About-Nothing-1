@@ -42,8 +42,8 @@
         </div>
         <div id="screen_big">
             <li><h1 onclick="home()" id="nav_title">Nothing (R)</h1></li>
-            <li class="nav_title" id="nav_products">
-                <h1 id="products_nav" onclick="produits()">Les produits (4)</h1>
+            <li onmouseover="nav_dropdown_produits()" onmouseout="nav_dropdown_none()" class="nav_title" id="nav_produits">
+                <h1 class="nav_title" id="products_nav" onclick="produits()">Les produits (4)</h1>
                 <div id="nav_dropdown_pro">
                     <h1 onclick="tous_les_produits()" class="h2_pointer">Tous les produits</h2>
                     <h2 onclick="phone_1()" onmouseover="img_changer_p('Phone_1')" onmouseout="img_changer_p('audio')" class="h2_pointer"><span>></span> Phone (1)</h2>
@@ -53,15 +53,15 @@
                     <h2 onclick="ear_1()" onmouseover="img_changer_p('ear_1')" onmouseout="img_changer_p('audio')" class="h2_pointer"><span>></span> Ear (1)</h2>
                     <br>
                     <h1 class="h2_pointer">Tous les accessoires</h2>
-                    <h2 onclick="power_45()" onmouseover="img_changer_p('power_45w')" onmouseout="img_changer_p('audio')" class="h2_pointer nav_margin_bottom"><span>></span> Power (45w)</h2>
+                    <h2 onclick="power_45()" onmouseover="img_changer_p('power_45w')" onmouseout="img_changer_p('audio')" class="h2_pointer"><span>></span> Power (45w)</h2>
                 </div>
             </li>
-            <li class="nav_title" id="nav_about">
-                <h1 id="about_nav" onclick="about()">À propos (2)</h1>
+            <li onmouseover="nav_dropdown_about()" onmouseout="nav_dropdown_none()" class="nav_title" id="nav_about">
+                <h1 class="nav_title" id="about_nav" onclick="about()">À propos (2)</h1>
                 <div id="nav_dropdown_abo">
                     <h2 class="h2_pointer">Tous le monde</h2>
                     <h2 onmouseover="img_changer_m('Carl')" onmouseout="img_changer_m('noir')" class="h2_pointer"><span>></span> Carl Pei</h2>
-                    <h2 onmouseover="img_changer_m('Ludovic')" onmouseout="img_changer_m('noir')" class="h2_pointer nav_margin_bottom"><span>></span> Ludovic M.</h2>
+                    <h2 onmouseover="img_changer_m('Ludovic')" onmouseout="img_changer_m('noir')" class="h2_pointer"><span>></span> Ludovic M.</h2>
                 </div>
             </li>
         </div>

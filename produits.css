@@ -28,10 +28,7 @@ article img{
 }
 article h1{
     position: absolute;
-    left: 0;
     top: 10%;
-    bottom: 0;
-    right: 0;
     font-size: 4vw;
     display: flex;
     justify-content: center;
