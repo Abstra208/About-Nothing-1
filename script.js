@@ -10,6 +10,13 @@ const img_ear1 = document.querySelector('#img_ear1');
 const img_power45 = document.querySelector('#img_power45');
 
 
+/*navbar*/
+const navigation = document.querySelector("nav");
+
+function nav_dropdown_about(){
+    navigation.style.backgroundColor="black";
+}
+
 function home(){
     window.location.href="https://marques.cf/index"
 }
@@ -85,12 +92,3 @@ const checkVisibility = () => {
 
 
 setInterval(checkVisibility, 0);
-console.log(document.location.pathname);
-
-
-/*navbar*/
-const navigation = document.querySelector("nav");
-
-function nav_dropdown_about(){
-    navigation.style.backgroundColor="black";
-}
