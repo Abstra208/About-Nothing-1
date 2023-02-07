@@ -87,3 +87,10 @@ const checkVisibility = () => {
 setInterval(checkVisibility, 0);
 console.log(document.location.pathname);
 
+
+/*navbar*/
+const navigation = document.querySelector("nav");
+
+function nav_dropdown_about(){
+    navigation.style.backgroundColor="black";
+}
