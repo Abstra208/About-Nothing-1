@@ -13,7 +13,7 @@ const img_power45 = document.querySelector('#img_power45');
 /*navbar*/
 const navigation_about = document.querySelector("#nav_about");
 const navigation_produits = document.querySelector("#nav_produits");
-const nav_title = document.querySelector(".nav_title");
+const nav_title = document.querySelectorAll(".nav_title");
 
 function nav_dropdown_about(){
     navigation_about.style.backgroundColor="black";
