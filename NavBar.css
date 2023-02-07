@@ -60,30 +60,39 @@ nav{
     width: 100vw;
     height: 50vh;
 }
+#screen_big #nav_dropdown_pro{
+    background-color: black;
+    display: none;
+}
+#screen_big #nav_dropdown_abo{
+    background-color: black;
+    display: none;
+}
 #screen_big li{
     list-style: none;
     font-size: 0.8rem;
 }
-.nav_dropdown{
-    position: relative;
+#nav_dropdown_abo{
+    position: absolute;
     top: 7%;
     font-size: .5rem;
-    height: 100%;
-    width: 100%;
-}
-#nav_about:hover .background_black{
-    display: contents;
-}
-#nav_products:hover .background_black{
-    display: contents;
-}
-.background_black{
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: black;
-    height: 50vh;
     width: 100vw;
+    height: 50vh;
+    background-color: black;
+}
+#nav_about:hover #nav_dropdown_abo{
+    display: contents;
+}
+#nav_dropdown_pro{
+    position: absolute;
+    top: 7%;
+    font-size: .5rem;
+    width: 100vw;
+    height: 50vh;
+    background-color: black;
+}
+#nav_products:hover #nav_dropdown_pro{
+    display: contents;
 }
 
 @media screen and (max-width: 850px){
