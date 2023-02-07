@@ -78,7 +78,6 @@ nav{
     display: contents;
 }
 .background_black{
-    display: none;
     background-color: black;
     height: 50vh;
     width: 100vw;
