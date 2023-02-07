@@ -13,6 +13,8 @@ article{
 }
 article div{
     position: relative;
+    top: 0;
+    left: 0;
     width: 100vw;
     height: 100vh;
     scroll-snap-align: start;
