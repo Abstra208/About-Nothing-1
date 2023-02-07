@@ -94,6 +94,8 @@ nav{
 }
 .background_black{
     background-color: black;
+    height: 100%;
+    width: 100%;
 }
 
 @media screen and (max-width: 850px){
