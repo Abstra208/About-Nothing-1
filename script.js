@@ -21,7 +21,7 @@ function about(){
 }
 
 function phone_1(){
-    window.location.href.="https://marques.cf/produits/phone-1"
+    window.location.href="https://marques.cf/produits/phone-1"
 }
 function audio(){
     window.location.href="https://marques.cf/pages/audio"
