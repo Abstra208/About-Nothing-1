@@ -78,8 +78,7 @@ const checkVisibility = () => {
             document.querySelector('#about_nav').style.color="black";
             document.querySelector('#nav_title').style.color="black";
         }
-    }
-    else {
+    }else {
         console.log(body)
     }
 };
