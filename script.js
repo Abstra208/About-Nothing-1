@@ -11,29 +11,29 @@ const img_power45 = document.querySelector('#img_power45');
 
 
 function home(){
-    window.location="index"
+    window.href="https://marques.cf/index"
 }
 function produits(){
-    window.location="produits"
+    window.href="https://marques.cf/produits"
 }
 function about(){
-    window.location="about"
+    window.href="https://marques.cf/about"
 }
 
 function phone_1(){
-    window.location="/produits/phone-1"
+    window.href="https://marques.cf/produits/phone-1"
 }
 function audio(){
-    window.location="/pages/audio"
+    window.href="https://marques.cf/pages/audio"
 }
 function ear_stick(){
-    window.location="/produits/ear-stick"
+    window.href="https://marques.cf/produits/ear-stick"
 }
 function ear_1(){
-    window.location="/produits/ear-1"
+    window.href="https://marques.cf/produits/ear-1"
 }
 function power_45(){
-    window.location="/produits/power-45"
+    window.href="https://marques.cf/produits/power-45"
 }
 
 function nav_screen(){
