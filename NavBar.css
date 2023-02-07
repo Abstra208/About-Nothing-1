@@ -68,6 +68,8 @@ nav{
     position: absolute;
     top: 7%;
     font-size: .5rem;
+    height: 100%;
+    width: 100%;
 }
 #nav_about:hover .background_black{
     display: contents;
