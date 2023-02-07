@@ -27,8 +27,6 @@ article img{
     object-fit: contain;
 }
 article h1{
-    height: 100%;
-    width: 100%;
     position: absolute;
     left: 0;
     top: 0;
