@@ -35,6 +35,7 @@ article h1{
     font-size: 4vw;
     display: flex;
     justify-content: center;
+    transform: translate(0% -50%);
 }
 
 #div_ear1,
