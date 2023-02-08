@@ -26,16 +26,18 @@ article img{
     transform: translate(-50%);
     object-fit: contain;
 }
-article h1{
+.text_article{
     position: absolute;
     left: 0;
     top: 10%;
     bottom: 0;
     right: 0;
-    font-size: 4vw;
     display: flex;
     justify-content: center;
     transform: translate(0% -50%);
+}
+article h1{
+    font-size: 4vw;
 }
 
 #div_ear1,
