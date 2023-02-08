@@ -8,5 +8,6 @@
 /produits/power-45 /produits/power45.html 200
 
 /pages/audio /pages/audio.html 200
+/pages/about /pages/about.html 200
 
 /* /404.html 404
