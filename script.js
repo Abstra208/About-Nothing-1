@@ -1,3 +1,7 @@
+$(function(){
+    $("header").load("https://marques.cf/xyz/yxt/header.html"); 
+});
+
 /*VARIABLE*/
 const body = document.querySelector("body");
 
