@@ -30,8 +30,7 @@ article img{
     position: absolute;
     left: 0;
     top: 10%;
-    bottom: 0;
-    right: 0;
+
     display: flex;
     justify-content: center;
     transform: translate(0% -50%);
