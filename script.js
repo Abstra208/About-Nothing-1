@@ -1,7 +1,6 @@
 /*LOAD NAVBAR*/
 $(function(){
     $("header").load("https://marques.cf/xyz/yxt/header.html");
-    $("head").load("https://marques.cf/xyz/yxt/header.html");
 });
 
 /*VARIABLE*/
