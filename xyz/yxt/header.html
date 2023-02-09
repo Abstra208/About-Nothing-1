@@ -1,4 +1,4 @@
-<nav id="nav">
+<nav id="nav" onmouseout="nav_dropdown_none()">
     <div id="screen_tin">
         <img onclick="nav_screen()" id="fleche_nav_screen" src="img/fleche.png" height="50" alt="">
         <div id="nav_dropdown_tin">
@@ -24,8 +24,8 @@
         </div>
     </div>
     <div id="screen_big">
-        <li><h1 onclick="home()" id="nav_title">Nothing (R)</h1></li>
-        <li onmouseover="nav_dropdown_produits()" onmouseout="nav_dropdown_none()" class="nav_title" id="nav_produits">
+        <li onmouseover="nav_dropdown()"><h1 onclick="home()" id="nav_title">Nothing (R)</h1></li>
+        <li onmouseover="nav_dropdown()" class="nav_title" id="nav_produits">
             <h1 class="nav_title" id="products_nav" onclick="produits()">Les produits (4)</h1>
             <div id="nav_dropdown_pro">
                 <h1 onclick="produits()" >Tous les produits</h2>
@@ -39,7 +39,7 @@
                 <h2 onclick="power_45()" onmouseover="img_changer_p('power_45w')" onmouseout="img_changer_p('audio')" ><span>></span> Power (45w)</h2>
             </div>
         </li>
-        <li onmouseover="nav_dropdown_about()" onmouseout="nav_dropdown_none()" class="nav_title" id="nav_about">
+        <li onmouseover="nav_dropdown()" class="nav_title" id="nav_about">
             <h1 class="nav_title" id="about_nav" onclick="about()">À propos (2)</h1>
             <div id="nav_dropdown_abo">
                 <h2 >Tous le monde</h2>
