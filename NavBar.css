@@ -26,7 +26,6 @@ nav{
 }
 .nav_dropdown_tin li{
     display: none;
-    color: white;
     background-color: black;
 }
 #fleche_nav_screen{
@@ -34,7 +33,10 @@ nav{
     top: 0;
     left: 0;
 }
-
+.object{
+    color: white;
+    cursor: pointer;
+}
 #screen_big{
     font-family: "Nothing";
     display: flex;
