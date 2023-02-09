@@ -9,5 +9,6 @@
 
 /pages/audio /pages/audio.html 200
 /pages/about /pages/about.html 200
+/pages/accessoires /pages/accessoires.html 200
 
 /* /404.html 404
