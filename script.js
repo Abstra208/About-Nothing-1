@@ -21,13 +21,13 @@ const navTitles = document.querySelectorAll('.nav_title');
 function nav_dropdown(){
     document.querySelector("#screen_big").style.backgroundColor="black";
     document.querySelectorAll('.nav_title').forEach(function(navTitle) {
-        document.querySelectorAll('.nav_title').style.color = 'white';
+        document.querySelector('.nav_title').style.color = 'white';
     });
 }
 function nav_dropdown_none(){
     document.querySelector("#screen_big").style.backgroundColor="transparent";
     document.querySelectorAll('.nav_title').forEach(function(navTitle) {
-        document.querySelectorAll('.nav_title').style.color = 'black';
+        document.querySelector('.nav_title').style.color = 'black';
     });
 }
 
