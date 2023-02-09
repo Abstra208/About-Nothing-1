@@ -20,13 +20,13 @@ const navTitles = document.querySelectorAll('.nav_title');
 
 function nav_dropdown(){
     document.querySelector("#screen_big").style.backgroundColor="black";
-    navTitles.forEach(function(navTitle) {
+    navTitles.forEach(function(nav_dropdown) {
         navTitle.style.backgroundColor = 'white';
     });
 }
 function nav_dropdown_none(){
     document.querySelector("#screen_big").style.backgroundColor="transparent";
-    navTitles.forEach(function(navTitle) {
+    navTitles.forEach(function(nav_dropdown_none) {
         navTitle.style.backgroundColor = 'black';
     });
 }
