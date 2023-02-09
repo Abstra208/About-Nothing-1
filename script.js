@@ -26,9 +26,6 @@ function nav_dropdown(){
 }
 function nav_dropdown_none(){
     document.querySelector("#screen_big").style.backgroundColor="transparent";
-    document.querySelectorAll('.nav_title').forEach(function(navTitle) {
-        navTitle.style.color = 'black';
-    });
 }
 
 
