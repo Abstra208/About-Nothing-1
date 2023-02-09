@@ -26,7 +26,7 @@ nav{
 }
 .nav_dropdown_tin li{
     display: none;
-    color: white;
+    color: black;
     background-color: black;
 }
 #fleche_nav_screen{
@@ -44,6 +44,7 @@ nav{
     top: 0;
     left: 0;
     z-index: 999;
+    background-color: white;
 }
 #screen_big h2 span{
     display: none;
