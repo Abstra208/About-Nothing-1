@@ -16,10 +16,10 @@ const img_power45 = document.querySelector('#img_power45');
 
 
 /*navbar*/
-const nav_bar = document.querySelector("#screen_big");
+const nav_bar = ;
 
 function nav_dropdown(){
-    nav_bar.style.backgroundColor="black";
+    document.querySelector("#screen_big").style.backgroundColor="black";
 }
 
 
