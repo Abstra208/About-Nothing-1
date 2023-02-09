@@ -19,6 +19,9 @@ const img_power45 = document.querySelector('#img_power45');
 function nav_dropdown(){
     document.querySelector("#screen_big").style.backgroundColor="black";
 }
+function nav_dropdown_none(){
+    document.querySelector("#screen_big").style.backgroundColor="transparent";
+}
 
 
 function home(){
