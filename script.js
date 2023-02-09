@@ -22,13 +22,13 @@ function nav_dropdown(){
     document.querySelector("#screen_big").style.backgroundColor="black";
     navTitles.forEach(function(navTitle) {
         navTitle.style.color = 'white';
-      });
+    });
 }
 function nav_dropdown_none(){
     document.querySelector("#screen_big").style.backgroundColor="transparent";
     navTitles.forEach(function(navTitle) {
         navTitle.style.color = 'black';
-      });
+    });
 }
 
 
