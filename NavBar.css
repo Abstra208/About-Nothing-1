@@ -12,8 +12,8 @@ nav{
 }
 nav img{
     position: absolute;
-    top: 7%;
-    left: 5%;
+    top: 15%;
+    left: 2%;
 }
 
 #screen_tin{
@@ -116,19 +116,6 @@ nav img{
     }
 }
 
-
-
-/*random*/
-#img_pro_nav{
-    position: absolute;
-    top: 15%;
-    left: 2%;
-}
-#img_mon_nav{
-    position: absolute;
-    top: 15%;
-    left: 2%;
-}
 
 #nav_title, #produits_nav, #about_nav{
     cursor: pointer;
