@@ -55,7 +55,7 @@ function ear_1(){
     window.location.href="https://marques.cf/produits/ear-1"
 }
 function accessoires(){
-    window.location.href="https://marques.cf/produits/pages/accessoires"
+    window.location.href="https://marques.cf/pages/accessoires"
 }
 function power_45(){
     window.location.href="https://marques.cf/produits/power-45"
