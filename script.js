@@ -16,13 +16,19 @@ const img_power45 = document.querySelector('#img_power45');
 
 
 /*navbar*/
+const navTitles = document.querySelectorAll('.nav_title');
+
 function nav_dropdown(){
     document.querySelector("#screen_big").style.backgroundColor="black";
-    document.getElementsByClassName("nav_title").style.color="white";
+    navTitles.forEach(function(navTitle) {
+        navTitle.style.backgroundColor = 'white';
+    });
 }
 function nav_dropdown_none(){
     document.querySelector("#screen_big").style.backgroundColor="transparent";
-    document.querySelectorAll(".nav_title").style.color="black";
+    navTitles.forEach(function(navTitle) {
+        navTitle.style.backgroundColor = 'black';
+    });
 }
 
 
