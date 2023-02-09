@@ -31,7 +31,7 @@ function produits(){
     window.location.href="https://marques.cf/produits"
 }
 function about(){
-    window.location.href="https://marques.cf/about"
+    window.location.href="https://marques.cf/pages/about"
 }
 
 function phone_1(){
