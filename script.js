@@ -6,14 +6,6 @@ $(function(){
 /*VARIABLE*/
 const body = document.querySelector("body");
 
-const img_produits = document.querySelector('#img_produits');
-const img_about = document.querySelector('#img_about');
-
-const img_phone1 = document.querySelector('#img_phone1');
-const img_earstick = document.querySelector('#img_earstick');
-const img_ear1 = document.querySelector('#img_ear1');
-const img_power45 = document.querySelector('#img_power45');
-
 
 /*navbar*/
 const navTitles = document.querySelectorAll('.nav_title');
@@ -85,28 +77,3 @@ function img_changer_m(prod_name){
     var db = { "Carl" : "img/carl-pei_tin.png", "Ludovic" : "img/2profil.png" , "noir" : "img/black.png" }
     image.src=db[prod_name];
 }
-
-
-const checkVisibility = () => {
-    const body = document.querySelector("body").id;
-
-    if (body === ("produits")) {
-        const power_45 = img_power45.getBoundingClientRect();
-        const power_45InFrame = (power_45.top === 0);
-
-        if (power_45InFrame){
-            document.querySelector('#products_nav').style.color="white";
-            document.querySelector('#about_nav').style.color="white";
-            document.querySelector('#nav_title').style.color="white";
-        }else{
-            document.querySelector('#products_nav').style.color="black";
-            document.querySelector('#about_nav').style.color="black";
-            document.querySelector('#nav_title').style.color="black";
-        }
-    }else {
-        console.log(body)
-    }
-};
-
-
-setInterval(checkVisibility, 0);
