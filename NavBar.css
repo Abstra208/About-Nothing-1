@@ -128,9 +128,13 @@ nav img{
     background-color: lightgray;
     display: none;
     position: absolute;
-  }
+}
 
 .menu-item {
     padding: 10px;
     cursor: pointer;
+}
+
+#menu.active{
+    display: contents;
 }

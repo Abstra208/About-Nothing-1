@@ -79,14 +79,25 @@ function img_changer_m(prod_name){
 }
 
 //CLIC DROIT
-var menu = document.getElementById("menu");
-document.addEventListener("contextmenu", function(event) {
-    event.preventDefault();
-    menu.style.display = "block";
-    menu.style.left = event.clientX + "px";
-    menu.style.top = event.clientY + "px";
-});
-
-document.addEventListener("click", function() {
-    menu.style.display = "none";
-});
+window.onload = () => {
+    document.addEventListener("contextmenu", function(event){
+        event.preventDefault();
+        let menu = document.querySelector("#menu");
+        menu.classList.toggle("active");
+        let posX = event.clientX;
+        let posY = event.clientY;
+        let maxX = window.innerWidth - menu.clientWidth - 25;
+        let maxY = window.innerHeight - menu.clientHeight - 25;
+        if(posX > maxX){
+            posX = maxX;
+        }
+        if(posY > maxY){
+            posY = maxY;
+        }
+        menu.style.top = posY + "px";
+        menu.style.left = posX + "px";
+    });
+    document.addEventListener("click", function(){
+        menu.classList.remove("active");
+    });
+}
