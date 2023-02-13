@@ -41,14 +41,12 @@ article h1{
 article p{
     position: absolute;
     width: 50vw;
-    left: 0;
+    left: 50%;
     top: 20%;
     bottom: 0;
     right: 0;
     font-size: 3vw;
-    display: flex;
-    justify-content: center;
-    transform: translate(0% -50%);
+    transform: translate(-50%);
 }
 
 @media screen and (max-width: 850px){
