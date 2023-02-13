@@ -79,25 +79,23 @@ function img_changer_m(prod_name){
 }
 
 //CLIC DROIT
-window.onload = () => {
-    document.addEventListener("contextmenu", function(event){
-        event.preventDefault();
-        let menu = document.querySelector("#menu");
-        menu.classList.toggle("active");
-        let posX = event.clientX;
-        let posY = event.clientY;
-        let maxX = window.innerWidth - menu.clientWidth - 25;
-        let maxY = window.innerHeight - menu.clientHeight - 25;
-        if(posX > maxX){
-            posX = maxX;
-        }
-        if(posY > maxY){
-            posY = maxY;
-        }
-        document.querySelector("#menu").style.top = posY + "px";
-        document.querySelector("#menu").style.left = posX + "px";
-    });
-    document.addEventListener("click", function(){
-        menu.classList.remove("active");
-    });
-}
+document.addEventListener("contextmenu", function(event){
+    event.preventDefault();
+    let menu = document.querySelector("#menu");
+    menu.classList.toggle("active");
+    let posX = event.clientX;
+    let posY = event.clientY;
+    let maxX = window.innerWidth - menu.clientWidth - 25;
+    let maxY = window.innerHeight - menu.clientHeight - 25;
+    if(posX > maxX){
+        posX = maxX;
+    }
+    if(posY > maxY){
+        posY = maxY;
+    }
+    document.querySelector("#menu").style.top = posY + "px";
+    document.querySelector("#menu").style.left = posX + "px";
+});
+document.addEventListener("click", function(){
+    menu.classList.remove("active");
+});
