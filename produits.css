@@ -40,10 +40,10 @@ article h1{
 article h3{
     position: absolute;
     left: 0;
-    top: 30%;
+    top: 20%;
     bottom: 0;
     right: 0;
-    font-size: 4vw;
+    font-size: 1vw;
     display: flex;
     justify-content: center;
     transform: translate(0% -50%);
