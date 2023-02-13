@@ -77,3 +77,16 @@ function img_changer_m(prod_name){
     var db = { "Carl" : "img/carl-pei_tin.png", "Ludovic" : "img/2profil.png" , "noir" : "img/black.png" }
     image.src=db[prod_name];
 }
+
+//CLIC DROIT
+var menu = document.getElementById("menu");
+document.addEventListener("contextmenu", function(event) {
+    event.preventDefault();
+    menu.style.display = "block";
+    menu.style.left = event.clientX + "px";
+    menu.style.top = event.clientY + "px";
+});
+
+document.addEventListener("click", function() {
+    menu.style.display = "none";
+});
