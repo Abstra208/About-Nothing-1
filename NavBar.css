@@ -120,3 +120,17 @@ nav img{
 #nav_title, #produits_nav, #about_nav{
     cursor: pointer;
 }
+
+
+
+.menu {
+    width: 200px;
+    background-color: lightgray;
+    display: none;
+    position: absolute;
+  }
+
+.menu-item {
+    padding: 10px;
+    cursor: pointer;
+}
