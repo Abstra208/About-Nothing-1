@@ -42,8 +42,8 @@ article p{
     position: absolute;
     width: 50vw;
     left: 50%;
-    top: 0;
-    bottom: 100%;
+    top: 90%;
+    bottom: 0;
     right: 0;
     font-size: 3vw;
     transform: translate(-50%);
