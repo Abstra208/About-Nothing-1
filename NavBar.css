@@ -124,6 +124,7 @@ nav img{
 
 
 #menu {
+    border-radius: 10px;
     width: 200px;
     background-color: black;
     display: none;
@@ -131,6 +132,7 @@ nav img{
 }
 
 .menu-item {
+    border: 1px white solid;
     color: white;
     padding: 10px;
     cursor: pointer;
