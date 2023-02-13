@@ -52,6 +52,9 @@ article h3{
 }
 @media screen and (max-width: 850px){
     article h1{
-        font-size: 4vh;
+        font-size: 5vh;
+    }
+    article h3{
+        font-size: 2vh;
     }
 }
