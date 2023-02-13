@@ -94,8 +94,8 @@ window.onload = () => {
         if(posY > maxY){
             posY = maxY;
         }
-        menu.style.top = posY + "px";
-        menu.style.left = posX + "px";
+        document.querySelector("#menu").style.top = posY + "px";
+        document.querySelector("#menu").style.left = posX + "px";
     });
     document.addEventListener("click", function(){
         menu.classList.remove("active");
