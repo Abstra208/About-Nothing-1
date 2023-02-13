@@ -46,7 +46,7 @@ article p{
     bottom: 0;
     right: 0;
     font-size: 3vw;
-    transform: translate(-50%);
+    transform: translate(-50%, -50%);
     text-align: center;
 }
 
