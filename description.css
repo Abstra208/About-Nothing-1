@@ -1,0 +1,37 @@
+article{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+article div{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+article img{
+    width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    object-fit: contain;
+}
+article h1{
+    position: absolute;
+    left: 0;
+    top: 10%;
+    bottom: 0;
+    right: 0;
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+    transform: translate(0% -50%);
+}
