@@ -37,3 +37,9 @@ article h1{
     justify-content: center;
     transform: translate(0% -50%);
 }
+
+@media screen and (max-width: 850px){
+    article img{
+        height: 100%;
+    }
+}
