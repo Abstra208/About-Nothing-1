@@ -38,7 +38,7 @@ article h1{
     transform: translate(0% -50%);
 }
 article h3{
-    color: cornflowerblue;
+    color: blue;
     cursor: pointer;
     position: absolute;
     left: 0;
