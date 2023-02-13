@@ -42,9 +42,7 @@ article p{
     position: absolute;
     width: 50vw;
     left: 50%;
-    top: 50%;
-    bottom: 0;
-    right: 0;
+    bottom: 10%;
     font-size: 3vw;
     transform: translate(-50%);
     text-align: center;
