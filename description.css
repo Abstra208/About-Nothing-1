@@ -47,6 +47,7 @@ article p{
     right: 0;
     font-size: 3vw;
     transform: translate(-50%);
+    text-align: center;
 }
 
 @media screen and (max-width: 850px){
