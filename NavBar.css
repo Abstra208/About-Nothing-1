@@ -125,12 +125,13 @@ nav img{
 
 #menu {
     width: 200px;
-    background-color: lightgray;
+    background-color: black;
     display: none;
     position: absolute;
 }
 
 .menu-item {
+    color: white;
     padding: 10px;
     cursor: pointer;
 }
