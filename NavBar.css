@@ -159,7 +159,7 @@ nav img{
 .menu_X{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    align-items: center;
 }
 
 .menu_content{
