@@ -102,4 +102,4 @@ document.addEventListener("click", function(){
 
 const menu{
     let produits = document.querySelector("#produits_menu")
-}
+};
