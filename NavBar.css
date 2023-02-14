@@ -161,3 +161,7 @@ nav img{
     flex-direction: row;
     justify-content: center;
 }
+
+.menu_content{
+    display: none;
+}
