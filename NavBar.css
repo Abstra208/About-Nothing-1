@@ -155,3 +155,9 @@ nav img{
 #menu.active{
     display: initial;
 }
+
+.menu_X{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
