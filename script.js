@@ -101,5 +101,5 @@ document.querySelector("article").addEventListener("click", function(){
 });
 document.querySelector("#produits_menu").addEventListener("click", function(){
     const P = document.querySelector(".menu_P");
-    P.classList.toggle("active");
+    P.classList.add("active");
 });
