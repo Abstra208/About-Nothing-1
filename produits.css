@@ -38,6 +38,8 @@ article h1{
     transform: translate(0% -50%);
 }
 article h3{
+    height: auto;
+    width: auto;
     color: blue;
     cursor: pointer;
     position: absolute;
