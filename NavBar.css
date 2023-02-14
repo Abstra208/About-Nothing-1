@@ -157,10 +157,13 @@ nav img{
 }
 
 .menu_X{
-    gap: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+.menu_X svg{
+    justify-content: end;
+    margin-right: 5px;
 }
 
 .menu_content{
