@@ -96,7 +96,7 @@ document.addEventListener("contextmenu", function(event){
     document.querySelector("#menu").style.top = posY + "px";
     document.querySelector("#menu").style.left = posX + "px";
 });
-document.addEventListener("click", function(){
+document.querySelector("acticle").addEventListener("click", function(){
     menu.classList.remove("active");
 });
 document.querySelector("#produits_menu").addEventListener("click", function(){
