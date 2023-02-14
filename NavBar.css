@@ -160,10 +160,10 @@ nav img{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .menu_X svg{
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 .menu_content{
