@@ -132,6 +132,7 @@ nav img{
 }
 
 .menu-item {
+    font-size: 0.8rem;
     border: .5px white solid;
     color: white;
     padding: 10px;
