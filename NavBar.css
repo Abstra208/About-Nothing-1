@@ -132,7 +132,7 @@ nav img{
 }
 
 .menu-item {
-    font-size: 0.8rem;
+    font-size: 1rem;
     border: .5px white solid;
     color: white;
     padding: 10px;
@@ -140,6 +140,7 @@ nav img{
 }
 .menu-item h1,
 .menu-item h2{
+    font-size: 0.8rem;
     cursor: pointer;
 }
 .menu-item h1 span,
