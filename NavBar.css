@@ -169,12 +169,6 @@ nav img{
 #menu_P.active svg #P_1{
     transform: translateY(2px);
 }
-#menu_P.active svg{
-    
-}
-#menu_P.active svg{
-    
-}
 
 .menu_content{
     display: none;
