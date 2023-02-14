@@ -138,6 +138,18 @@ nav img{
     padding: 10px;
     cursor: pointer;
 }
+.menu-item h1,
+.menu-item h2{
+    cursor: pointer;
+}
+.menu-item h1 span,
+.menu-item h2 span{
+    display: none;
+}
+.menu-item h1:hover span,
+.menu-item h2:hover span{
+    display: contents;
+}
 
 #menu.active{
     display: initial;
