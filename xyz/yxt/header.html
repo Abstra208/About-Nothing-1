@@ -52,8 +52,30 @@
         </li>
     </div>
     <div id="menu">
-        <div class="menu-item" onclick="home()">Nothing (R)</div>
-        <div class="menu-item" onclick="produits()">Les produits</div>
-        <div class="menu-item" onclick="about()">À propos</div>
+        <div class="menu-item" onclick="home()">
+            Nothing (R)
+        </div>
+        <div class="menu-item" onclick="produits()">
+            Les produits
+            <div>
+                <h1 class="object" onclick="produits()" >Tous les produits</h2>
+                <h2 class="object" onclick="phone_1()" onmouseover="img_changer_p('Phone_1')" onmouseout="img_changer_p('audio')" ><span>></span> Phone (1)</h2>
+                <br>
+                <h2 class="object" onclick="audio()" ><span>></span> Audio</h2>
+                <h2 class="object" onclick="ear_stick()" onmouseover="img_changer_p('ear_stick')" onmouseout="img_changer_p('audio')" ><span>></span> Ear (stick)</h2>
+                <h2 class="object" onclick="ear_1()" onmouseover="img_changer_p('ear_1')" onmouseout="img_changer_p('audio')" ><span>></span> Ear (1)</h2>
+                <br>
+                <h1 class="object" onclick="accessoires()">Tous les accessoires</h2>
+                <h2 class="object" onclick="power_45()" onmouseover="img_changer_p('power_45w')" onmouseout="img_changer_p('audio')" ><span>></span> Power (45w)</h2>
+            </div>
+        </div>
+        <div class="menu-item" onclick="about()">
+            À propos
+            <div>
+                <h2 class="object" onclick="about()">Tous le monde</h2>
+                <h2 class="object" onmouseover="img_changer_m('Carl')" onmouseout="img_changer_m('noir')" ><span>></span> Carl Pei</h2>
+                <h2 class="object" onmouseover="img_changer_m('Ludovic')" onmouseout="img_changer_m('noir')" ><span>></span> Ludovic M.</h2>
+            </div>
+        </div>
     </div>
 </nav>
