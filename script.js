@@ -99,3 +99,7 @@ document.addEventListener("contextmenu", function(event){
 document.addEventListener("click", function(){
     menu.classList.remove("active");
 });
+
+const menu{
+    let produits = document.querySelector("#produits_menu")
+}
