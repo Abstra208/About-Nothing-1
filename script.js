@@ -102,8 +102,8 @@ function active(element){
     if (element === about){
         const menu_P = document.querySelector("#menu_P");
         const menu_A = document.querySelector("#menu_A");
-        menu_A.className.toggle("active");
-        if (menu_P.classList === active){
+        menu_A.classList.toggle("active");
+        if (menu_P.className === active){
             menu_P.classList.toggle("active");
         }
     }
