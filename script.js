@@ -96,6 +96,8 @@ function active(element){
         const menu_A = document.querySelector("#menu_A");
         menu_P.classList.toggle("active");
         if (menu_A.className === active){
+            return
+        } else {
             menu_A.classList.toggle("active");
         }
     }
@@ -104,6 +106,8 @@ function active(element){
         const menu_A = document.querySelector("#menu_A");
         menu_A.classList.toggle("active");
         if (menu_P.className === active){
+            return
+        } else {
             menu_P.classList.toggle("active");
         }
     }
