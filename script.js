@@ -91,6 +91,7 @@ document.querySelector("article").addEventListener("click", function(){
 
 //MENU CLIC DROIT
 const menu_P = document.getElementById("menu_P");
-document.getElementById("produits_menu").addEventListener("click", function(){
+const produits_menu = document.getElementById("produits_menu")
+produits_menu.addEventListener("click", function(){
     menu_P.classList.toggle("active");
 })
