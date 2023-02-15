@@ -112,7 +112,7 @@ if (produits_menu) {
   produits_menu.addEventListener("click", function() {
     // Code à exécuter lorsque l'élément est cliqué
     console.log("L'élément produits_menu a été cliqué !");
-  });
+});
 } else {
   console.log("L'élément produits_menu n'existe pas.");
 }
