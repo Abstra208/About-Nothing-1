@@ -90,8 +90,9 @@ document.querySelector("article").addEventListener("click", function(){
 });
 
 //MENU CLIC DROIT
-const menu_P = document.getElementById("menu_P");
-const produits_menu = document.getElementById("produits_menu")
-produits_menu.addEventListener("click", function(){
-    menu_P.classList.toggle("active");
-})
+function active(element){
+    if (element === produits){
+        const menu_P = document.querySelector("#menu_P");
+        menu_P.classList.toggle("active");
+    }
+}
