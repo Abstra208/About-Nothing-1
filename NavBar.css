@@ -129,12 +129,12 @@ nav img{
     background-color: black;
     display: none;
     position: absolute;
+    padding: 10px;
 }
 
 .menu-item {
     font-size: 1rem;
     color: white;
-    padding: 10px;
     cursor: pointer;
 }
 .menu-item h1,
@@ -155,15 +155,19 @@ nav img{
     display: initial;
 }
 
-#menu_P_content,
-#menu_A_content{
+.menu_P_content,
+.menu_A_content{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
-#menu_P_content svg
-#menu_A_content svg{
+.menu_P_content h1,
+.menu_A_content h1{
+    font-size: 1rem;
+}
+.menu_P_content svg
+.menu_A_content svg{
     margin-right: 10px;
 }
 #P_1,
