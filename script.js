@@ -95,14 +95,14 @@ function active(element){
         const menu_P = document.querySelector("#menu_P");
         const menu_A = document.querySelector("#menu_A");
         menu_P.classList.toggle("active");
-        if (menu_A.classList === active){
+        if (menu_A.className === active){
             menu_A.classList.toggle("active");
         }
     }
     if (element === about){
         const menu_P = document.querySelector("#menu_P");
         const menu_A = document.querySelector("#menu_A");
-        menu_A.classList.toggle("active");
+        menu_A.className.toggle("active");
         if (menu_P.classList === active){
             menu_P.classList.toggle("active");
         }
