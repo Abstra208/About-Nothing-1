@@ -94,21 +94,13 @@ function active(element){
     if (element === produits){
         const menu_P = document.querySelector("#menu_P");
         const menu_A = document.querySelector("#menu_A");
-        if (menu_P.className === active){
-            return
-        } else {
-            menu_P.classList.toggle("active");
-            menu_A.classList.remove("active");   
-        }
+        menu_P.classList.toggle("active");
+        menu_A.classList.remove("active");
     }
     if (element === about){
         const menu_P = document.querySelector("#menu_P");
         const menu_A = document.querySelector("#menu_A");
-        if (menu_A.className === active){
-            return
-        } else {
-            menu_A.classList.toggle("active");
-            menu_P.classList.remove("active");   
-        }
+        menu_A.classList.toggle("active");
+        menu_P.classList.remove("active");
     }
 }
