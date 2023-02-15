@@ -2,9 +2,9 @@
 const produits_menu = document.querySelector("#produits_menu");
 
 // Vérifier que l'élément existe avant d'ajouter le gestionnaire d'événements
-if (produits_menu) {
+if (document.querySelector("#menu_P")) {
   // Ajouter un gestionnaire d'événements click à l'élément produits_menu
-  produits_menu.addEventListener("click", function() {
+  document.querySelector("#menu_P").addEventListener("click", function() {
     // Code à exécuter lorsque l'élément est cliqué
     console.log("L'élément produits_menu a été cliqué !");
 });
