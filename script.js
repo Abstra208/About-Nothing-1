@@ -101,5 +101,18 @@ document.querySelector("article").addEventListener("click", function(){
 });
 document.querySelector("#produits_menu").addEventListener("click", function(){
     let P = document.querySelector("#menu_P");
-    P.classList.add("active");
+    P.classList.toggle("active");
 });
+// Récupérer l'élément produits_menu
+const produits_menu = document.querySelector("#produits_menu");
+
+// Vérifier que l'élément existe avant d'ajouter le gestionnaire d'événements
+if (produits_menu) {
+  // Ajouter un gestionnaire d'événements click à l'élément produits_menu
+  produits_menu.addEventListener("click", function() {
+    // Code à exécuter lorsque l'élément est cliqué
+    console.log("L'élément produits_menu a été cliqué !");
+  });
+} else {
+  console.log("L'élément produits_menu n'existe pas.");
+}
