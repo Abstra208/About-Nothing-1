@@ -100,7 +100,6 @@ function active(element){
             menu_P.classList.toggle("active");
             menu_A.classList.remove("active");   
         }
-
     }
     if (element === about){
         const menu_P = document.querySelector("#menu_P");
