@@ -166,8 +166,17 @@ nav img{
 #menu_A svg{
     margin-right: 10px;
 }
-#menu_P.active #P_1{
+#P_1,
+#P_2,
+#P_3{
+    transition: all 0.3s ease-in-out;
+}
+#menu_P.active #P_1,
+#menu_p.active #P_3{
     transform: translateY(2px);
+}
+#menu_P.active #P_2{
+    transform: translateY(-2px);
 }
 
 .menu_content{
