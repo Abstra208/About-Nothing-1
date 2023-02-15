@@ -90,3 +90,7 @@ document.querySelector("article").addEventListener("click", function(){
 });
 
 //MENU CLIC DROIT
+document.getElementById("produits_menu").addEventListener("click", function(){
+    const menu_P = document.getElementById("menu_P");
+    menu_P.classList.toggle("active");
+})
