@@ -172,10 +172,23 @@ nav img{
     transition: all 0.3s ease-in-out;
 }
 #menu_P.active #P_1,
-#menu_p.active #P_3{
+#menu_P.active #P_3{
     transform: translateY(2px);
 }
 #menu_P.active #P_2{
+    transform: translateY(-2px);
+}
+
+#A_1,
+#A_2,
+#A_3{
+    transition: all 0.3s ease-in-out;
+}
+#menu_A.active #A_1,
+#menu_A.active #A_3{
+    transform: translateY(2px);
+}
+#menu_A.active #A_2{
     transform: translateY(-2px);
 }
 
