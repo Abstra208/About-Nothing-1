@@ -168,7 +168,8 @@ nav img{
 }
 #P_1,
 #P_2,
-#P_3{
+#P_3,
+.menu_content{
     transition: all 0.3s ease-in-out;
 }
 #menu_P.active #P_1,
@@ -177,6 +178,9 @@ nav img{
 }
 #menu_P.active #P_2{
     transform: translateY(-2px);
+}
+#menu_P.active .menu_content{
+    display: contents;
 }
 
 #A_1,
@@ -190,6 +194,9 @@ nav img{
 }
 #menu_A.active #A_2{
     transform: translateY(-2px);
+}
+#menu_A.active .menu_content{
+    display: contents;
 }
 
 .menu_content{
