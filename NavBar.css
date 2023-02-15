@@ -166,7 +166,7 @@ nav img{
 #menu_A svg{
     margin-right: 10px;
 }
-#menu_P.active svg #P_1{
+#menu_P.active #P_1{
     transform: translateY(2px);
 }
 
