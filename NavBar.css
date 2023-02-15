@@ -155,15 +155,15 @@ nav img{
     display: initial;
 }
 
-#menu_P,
-#menu_A{
+#menu_P_content,
+#menu_A_content{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
-#menu_P svg
-#menu_A svg{
+#menu_P_content svg
+#menu_A_content svg{
     margin-right: 10px;
 }
 #P_1,
