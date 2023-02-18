@@ -16,6 +16,11 @@ nav img{
     left: 2%;
 }
 
+.produits_nav,
+.about_nav{
+    cursor: s-resize;
+}
+
 #screen_tin{
     display: none;
     width: 100%;
