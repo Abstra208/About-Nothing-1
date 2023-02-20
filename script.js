@@ -24,33 +24,42 @@ function nav_dropdown_none(){
 }
 
 
-function home(){
-    window.location.href="https://marques.cf/index"
-}
-function produits(){
-    window.location.href="https://marques.cf/produits"
-}
-function about(){
-    window.location.href="https://marques.cf/pages/about"
-}
+function navigation(page){
+    if (page === home){
+        window.location.href="https://marques.cf/index"
+    }
 
-function phone_1(){
-    window.location.href="https://marques.cf/produits/phone-1"
-}
-function audio(){
-    window.location.href="https://marques.cf/pages/audio"
-}
-function ear_stick(){
-    window.location.href="https://marques.cf/produits/ear-stick"
-}
-function ear_1(){
-    window.location.href="https://marques.cf/produits/ear-1"
-}
-function accessoires(){
-    window.location.href="https://marques.cf/pages/accessoires"
-}
-function power_45(){
-    window.location.href="https://marques.cf/produits/power-45"
+    if (page === produits){
+        window.location.href="https://marques.cf/produits"
+    }
+
+    if (page === about){
+        window.location.href="https://marques.cf/pages/about"
+    }
+
+    if (page === phone_1){
+        window.location.href="https://marques.cf/produits/phone-1"
+    }
+
+    if (page === audio){
+        window.location.href="https://marques.cf/pages/audio"
+    }
+
+    if (page === ear_stick){
+        window.location.href="https://marques.cf/produits/ear-stick"
+    }
+
+    if (page === ear_1){
+        window.location.href="https://marques.cf/produits/ear-1"
+    }
+
+    if (page === accessoires){
+        window.location.href="https://marques.cf/pages/accessoires"
+    }
+
+    if (page === power_45){
+        window.location.href="https://marques.cf/produits/power-45"
+    }
 }
 
 function nav_screen(){
