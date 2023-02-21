@@ -55,7 +55,7 @@ nav img{
     top: 0;
     left: 0;
     z-index: 999;
-    backdrop-filter: blur(200px);
+    backdrop-filter: blur(10px);
 }
 #screen_big h2 span{
     display: none;
