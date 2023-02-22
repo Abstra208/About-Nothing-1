@@ -23,7 +23,11 @@ function nav_dropdown_none(){
     document.querySelector("#about_nav").style.color="black";
 }
 
-
+function navigation(page){
+    if (page === home){
+        window.location.replace("http://marques.cf");
+    }
+}
 
 
 function nav_screen(){
