@@ -33,6 +33,24 @@ function navigation(page){
     if (page === "about"){
         window.location.replace("http://marques.cf/pages/about");
     }
+    if (page === "phone_1"){
+        window.location.replace("http://marques.cf/produits/phone-1");
+    }
+    if (page === "audio"){
+        window.location.replace("http://marques.cf/pages/audio");
+    }
+    if (page === "ear_stick"){
+        window.location.replace("http://marques.cf/produits/ear-stick");
+    }
+    if (page === "ear_1"){
+        window.location.replace("http://marques.cf/produits/ear-1");
+    }
+    if (page === "accessoires"){
+        window.location.replace("http://marques.cf/accessoires");
+    }
+    if (page === "power_45"){
+        window.location.replace("https://marques.cf/produits/power-45")
+    }
 }
 
 
