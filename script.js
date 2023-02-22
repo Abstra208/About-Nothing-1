@@ -46,7 +46,7 @@ function navigation(page){
         window.location.replace("http://marques.cf/produits/ear-1");
     }
     if (page === "accessoires"){
-        window.location.replace("http://marques.cf/accessoires");
+        window.location.replace("http://marques.cf/pages/accessoires");
     }
     if (page === "power_45"){
         window.location.replace("https://marques.cf/produits/power-45")
