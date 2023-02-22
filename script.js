@@ -27,6 +27,12 @@ function navigation(page){
     if (page === "home"){
         window.location.replace("http://marques.cf");
     }
+    if (page === "produits"){
+        window.location.replace("http://marques.cf/produits");
+    }
+    if (page === "about"){
+        window.location.replace("http://marques.cf/pages/about");
+    }
 }
 
 
