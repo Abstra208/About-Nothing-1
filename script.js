@@ -24,7 +24,7 @@ function nav_dropdown_none(){
 }
 
 function navigation(page){
-    if (page === home){
+    if (page === "home"){
         window.location.replace("http://marques.cf");
     }
 }
