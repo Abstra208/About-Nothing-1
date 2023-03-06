@@ -92,13 +92,13 @@ document.querySelector("article").addEventListener("click", function(){
 
 //MENU CLIC DROIT
 function active(element){
-    if (element === produits){
+    if (element === "produits"){
         const menu_P = document.querySelector("#menu_P");
         const menu_A = document.querySelector("#menu_A");
         menu_P.classList.toggle("active");
         menu_A.classList.remove("active");
     }
-    if (element === about){
+    if (element === "about"){
         const menu_P = document.querySelector("#menu_P");
         const menu_A = document.querySelector("#menu_A");
         menu_A.classList.toggle("active");
