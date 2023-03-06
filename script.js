@@ -25,31 +25,31 @@ function nav_dropdown_none(){
 
 function navigation(page){
     if (page === "home"){
-        window.location.replace("http://marques.cf");
+        window.location.href="http://marques.cf";
     }
     if (page === "produits"){
-        window.location.replace("http://marques.cf/produits");
+        window.location.href="http://marques.cf/produits";
     }
     if (page === "about"){
-        window.location.replace("http://marques.cf/pages/about");
+        window.location.href="http://marques.cf/pages/about";
     }
     if (page === "phone_1"){
-        window.location.replace("http://marques.cf/produits/phone-1");
+        window.location.href="http://marques.cf/produits/phone-1";
     }
     if (page === "audio"){
-        window.location.replace("http://marques.cf/pages/audio");
+        window.location.href="http://marques.cf/pages/audio";
     }
     if (page === "ear_stick"){
-        window.location.replace("http://marques.cf/produits/ear-stick");
+        window.location.href="http://marques.cf/produits/ear-stick";
     }
     if (page === "ear_1"){
-        window.location.replace("http://marques.cf/produits/ear-1");
+        window.location.href="http://marques.cf/produits/ear-1";
     }
     if (page === "accessoires"){
-        window.location.replace("http://marques.cf/pages/accessoires");
+        window.location.href="http://marques.cf/pages/accessoires";
     }
     if (page === "power_45"){
-        window.location.replace("https://marques.cf/produits/power-45");
+        window.location.href="https://marques.cf/produits/power-45";
     }
 }
 
