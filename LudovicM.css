@@ -29,3 +29,7 @@ body{
     justify-content: center;
     align-items: center;
 }
+.right div{
+    width: 100px;
+    height: 100px;
+}
