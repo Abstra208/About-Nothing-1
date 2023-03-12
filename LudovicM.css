@@ -22,6 +22,10 @@ body{
     justify-content: center;
     align-items: center;
 }
+.left img{
+    width: 33vw;
+    height: 60vh;
+}
 .right{
     height: 100%;
     background-color: blue;
