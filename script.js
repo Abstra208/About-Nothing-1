@@ -5,7 +5,7 @@ $(function(){
 
 /*VARIABLE*/
 const body = document.querySelector("body");
-
+const ip = marques.cf;
 
 /*navbar*/
 const navTitles = document.querySelectorAll('.nav_title');
@@ -25,7 +25,7 @@ function nav_dropdown_none(){
 
 function navigation(page){
     if (page === "home"){
-        window.location.href="http://marques.cf";
+        window.location.href= ip;
     }
     if (page === "produits"){
         window.location.href="http://marques.cf/produits";
@@ -50,6 +50,10 @@ function navigation(page){
     }
     if (page === "power_45"){
         window.location.href="https://marques.cf/produits/power-45";
+    }
+
+    if (page === "about"){
+        window.location.href="https://marques.cf/about";
     }
 }
 
