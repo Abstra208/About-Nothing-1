@@ -55,6 +55,12 @@ function navigation(page){
     if (page === "about"){
         window.location.href="https://marques.cf/about";
     }
+    if (page === "CarlP"){
+        window.location.href="https://marques.cf/about/CarlP"
+    }
+    if (page === "LudovicM"){
+        window.location.href="https://marques.cf/about/LudovicM"
+    }
 }
 
 
