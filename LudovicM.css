@@ -18,8 +18,13 @@ body{
 .left{
     height: 100%;
     background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .right{
     height: 100%;
     background-color: blue;
+    justify-content: center;
+    align-items: center;
 }
