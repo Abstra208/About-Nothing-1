@@ -25,7 +25,7 @@ function nav_dropdown_none(){
 
 function navigation(page){
     if (page === "home"){
-        window.location.href= (ip);
+        window.location.href= ip;
     }
     if (page === "produits"){
         window.location.href="http://marques.cf/produits";
