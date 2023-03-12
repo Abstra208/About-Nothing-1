@@ -5,7 +5,7 @@ $(function(){
 
 /*VARIABLE*/
 const body = document.querySelector("body");
-const ip = marques.cf;
+
 
 /*navbar*/
 const navTitles = document.querySelectorAll('.nav_title');
@@ -25,7 +25,7 @@ function nav_dropdown_none(){
 
 function navigation(page){
     if (page === "home"){
-        window.location.href= ip;
+        window.location.href="http://marques.cf";
     }
     if (page === "produits"){
         window.location.href="http://marques.cf/produits";
