@@ -11,15 +11,16 @@ body{
     left: 0;
     height: 100%;
     width: 100%;
-    display: grid;
-    grid-template-columns: 50% 50%;
+    display: flex;
     z-index: -1;
 }
 
 .left{
     height: 100%;
+    width: 50%;
     background-color: blue;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -29,6 +30,7 @@ body{
 
 .right{
     height: 100%;
+    width: 50%;
     background-color: blue;
     display: flex;
     justify-content: center;
@@ -45,7 +47,6 @@ body{
 
 @media screen and (max-width: 850px){
     #information{
-        display: grid;
-        grid-template-rows: 50% 50%;
+        flex-direction: column;
     }
 }
