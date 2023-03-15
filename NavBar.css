@@ -37,6 +37,9 @@ nav img{
 }
 .nav_dropdown_tin li{
     display: none;
+    display: flex;
+    justify-content: center;
+    align-items: start;
 }
 #fleche_nav_screen{
     position: absolute;
