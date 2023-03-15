@@ -112,7 +112,7 @@ nav img{
         justify-content: center;
         align-items: start;
         width: 100%;
-        height: 100%;
+        height: auto;
         z-index: 999;
         background-color: black;
         flex-direction: column;
