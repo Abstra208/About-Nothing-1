@@ -112,13 +112,13 @@ nav img{
         width: 100%;
         height: auto;
         z-index: 999;
+        background-color: black;
     }
     #nav_dropdown_tin{
         display: none;
         position: fixed;
         left: 0;
         top: 0;
-        background-color: black;
         flex-direction: column;
         display: flex;
         justify-content: center;
