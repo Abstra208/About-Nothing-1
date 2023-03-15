@@ -23,10 +23,6 @@ nav img{
 
 #screen_tin{
     display: none;
-    width: 100%;
-    height: 100%;
-    z-index: 999;
-    background-color: black;
 }
 #nav_dropdown_tin{
     display: none;
@@ -37,9 +33,6 @@ nav img{
 }
 .nav_dropdown_tin li{
     display: none;
-    display: flex;
-    justify-content: center;
-    align-items: start;
 }
 #fleche_nav_screen{
     position: absolute;
@@ -110,6 +103,13 @@ nav img{
 @media screen and (max-width: 850px){
     #screen_tin{
         display: contents;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        width: 100%;
+        height: 100%;
+        z-index: 999;
+        background-color: black;
     }
     #nav_dropdown_tin{
         display: none;
