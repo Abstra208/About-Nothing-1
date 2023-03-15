@@ -38,6 +38,7 @@ nav img{
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 1999;
 }
 .object{
     color: white;
