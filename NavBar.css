@@ -111,6 +111,8 @@ nav img{
         z-index: 999;
         background-color: black;
         flex-direction: column;
+        padding: 0;
+        margin: 0;
     }
     #nav_dropdown_tin{
         display: none;
