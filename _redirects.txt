@@ -3,6 +3,7 @@
 
 /produits /produits.html 200
 /produits/ear-1 /produits/ear1.html 200
+/produits/ear-2 /produits/ear2.html 200
 /produits/ear-stick /produits/earstick.html 200
 /produits/phone-1 /produits/Phone1.html 200
 /produits/power-45 /produits/power45.html 200
