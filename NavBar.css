@@ -34,7 +34,9 @@ nav img{
 .nav_dropdown_tin li{
     display: none;
 }
-.title_nav_tin{
+#nav_title,
+#produits_nav,
+#about_nav{
     color: white;
 }
 #fleche_nav_screen{
