@@ -55,10 +55,10 @@ nav img{
     z-index: 999;
     backdrop-filter: blur(10px);
 }
-#screen_big h2 span{
+#screen_big h2 .dash{
     display: none;
 }
-#screen_big h2:hover span{
+#screen_big h2:hover .dash{
     display: contents;
 }
 #screen_big img{
@@ -161,12 +161,12 @@ nav img{
     font-size: 0.8rem;
     cursor: pointer;
 }
-.menu-item h1 span,
-.menu-item h2 span{
+.menu-item h1 .dash,
+.menu-item h2 .dash{
     display: none;
 }
-.menu-item h1:hover span,
-.menu-item h2:hover span{
+.menu-item h1:hover .dash,
+.menu-item h2:hover .dash{
     display: contents;
 }
 
