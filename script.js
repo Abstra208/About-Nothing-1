@@ -10,19 +10,6 @@ const body = document.querySelector("body");
 /*navbar*/
 const navTitles = document.querySelectorAll('.nav_title');
 
-function nav_dropdown(){
-    document.querySelector("#screen_big").style.backgroundColor="black";
-    document.querySelector("#nav_title").style.color="white";
-    document.querySelector("#produits_nav").style.color="white";
-    document.querySelector("#about_nav").style.color="white";
-}
-function nav_dropdown_none(){
-    document.querySelector("#screen_big").style.backgroundColor="transparent";
-    document.querySelector("#nav_title").style.color="black";
-    document.querySelector("#produits_nav").style.color="black";
-    document.querySelector("#about_nav").style.color="black";
-}
-
 function navigation(page){
     if (page === "home"){
         window.location.href="https://marques.cf";
