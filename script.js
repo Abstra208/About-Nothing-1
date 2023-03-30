@@ -3,6 +3,22 @@ $(function(){
     $("header").load("https://marques.cf/xyz/yxt/header.html");
 });
 
+var lastScrollTop = 0;
+
+window.addEventListener("scroll", function(){
+    var currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    if (currentScrollTop > lastScrollTop){
+        // L'utilisateur a fait défiler la page vers le bas
+        console.log("Scroll down");
+        this.document.getElementById("nav").style.display="none";
+    } else {
+        // L'utilisateur a fait défiler la page vers le haut
+        console.log("Scroll up");
+        this.document.getElementById("nav").style.display="contents";
+    }
+    lastScrollTop = currentScrollTop;
+}, false);
+
 /*VARIABLE*/
 const body = document.querySelector("body");
 
@@ -67,23 +83,6 @@ function nav_screen(){
         fleche_nav_screen.style.transform="rotate(180deg)";
     }
 }
-
-var lastScrollTop = 0;
-
-document.addEventListener("scroll", function(){
-    var currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
-    if (currentScrollTop > lastScrollTop){
-        // L'utilisateur a fait défiler la page vers le bas
-        console.log("Scroll down");
-        this.document.getElementById("nav").style.display="none";
-    } else {
-        // L'utilisateur a fait défiler la page vers le haut
-        console.log("Scroll up");
-        this.document.getElementById("nav").style.display="contents";
-    }
-    lastScrollTop = currentScrollTop;
-}, false);
-
 
 //CLIC DROIT
 document.addEventListener("contextmenu", function(event){
