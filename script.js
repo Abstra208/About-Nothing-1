@@ -6,6 +6,7 @@ $(function(){
 var lastScrollTop = 0;
 
 window.addEventListener("scroll", function(){
+    console.log("something else")
     var currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
     if (currentScrollTop > lastScrollTop){
         // L'utilisateur a fait défiler la page vers le bas
