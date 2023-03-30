@@ -1,4 +1,4 @@
-<nav id="nav" onmouseout="nav_dropdown_none()">
+<nav id="nav">
     <div id="screen_tin">
         <img onclick="nav_screen()" id="fleche_nav_screen" src="https://marques.cf/img/fleche.png" height="50" alt="">
         <div id="nav_dropdown_tin">
@@ -25,7 +25,7 @@
     </div>
     <div id="screen_big">
         <li><h1 onclick="navigation('home')" id="nav_title">Nothing (R)</h1></li>
-        <li onmouseover="nav_dropdown()" id="nav_produits">
+        <li id="nav_produits">
             <h1 onclick="navigation('produits')" id="produits_nav">Les produits</h1>
             <div id="nav_dropdown_pro">
                 <img src="https://marques.cf/img/audio_tin.png" alt="">
@@ -41,7 +41,7 @@
                 <br>
             </div>
         </li>
-        <li onmouseover="nav_dropdown()" id="nav_about">
+        <li id="nav_about">
             <h1 onclick="navigation('about')" id="about_nav">À propos</h1>
             <div id="nav_dropdown_abo">
                 <h2 class="object" onclick="navigation('about')">Tous le monde</h2>
