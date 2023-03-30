@@ -10,14 +10,15 @@ window.addEventListener("scroll", function(){
     if (currentScrollTop > lastScrollTop){
         // L'utilisateur a fait défiler la page vers le bas
         console.log("Scroll down");
-        this.document.getElementById("nav").style.display="none";
+        document.getElementById("nav").style.display="none";
     } else {
         // L'utilisateur a fait défiler la page vers le haut
         console.log("Scroll up");
-        this.document.getElementById("nav").style.display="contents";
+        document.getElementById("nav").style.display="block";
     }
     lastScrollTop = currentScrollTop;
 }, false);
+
 
 /*VARIABLE*/
 const body = document.querySelector("body");
