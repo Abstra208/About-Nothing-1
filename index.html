@@ -17,7 +17,7 @@
     <script>
         var lastScrollTop = 0;
 
-        window.addEventListener("scroll", function(){
+        document.addEventListener("scroll", function(){
             console.log("something else")
             var currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
             if (currentScrollTop > lastScrollTop){
