@@ -3,6 +3,22 @@ $(function(){
     $("header").load("https://marques.cf/xyz/yxt/header.html");
 });
 
+var lastScrollTop = 0;
+
+window.addEventListener("scroll", function(){
+    var currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    if (currentScrollTop > lastScrollTop){
+        // L'utilisateur a fait défiler la page vers le bas
+        console.log("Scroll down");
+        document.getElementById("nav").style.display="none";
+    } else {
+        // L'utilisateur a fait défiler la page vers le haut
+        console.log("Scroll up");
+        document.getElementById("nav").style.display="block";
+    }
+    lastScrollTop = currentScrollTop;
+}, false);
+
 /*VARIABLE*/
 const body = document.querySelector("body");
 
