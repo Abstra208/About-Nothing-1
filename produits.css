@@ -6,7 +6,7 @@ article{
     width: 100%;
     z-index: -1;
     overflow-y: scroll;
-    scroll-snap-type: y mandatory;
+    scroll-snap-type: y proximity;
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
