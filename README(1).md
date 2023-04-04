@@ -24,5 +24,5 @@ This project is used by the following repositery:
 
 ## Authors
 
-- [@octokatherine](https://www.github.com/octokatherine)
+- [@Abstra208](https://www.github.com/Abstra208)
 
