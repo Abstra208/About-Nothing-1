@@ -22,7 +22,6 @@ This project is used by the following repositery:
 
 - [About Nothing (1)](https://github.com/abstra208/About-nothing-1)
 
-- [!()]()
 ## Authors
 
 - [@octokatherine](https://www.github.com/octokatherine)
