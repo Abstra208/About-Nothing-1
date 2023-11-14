@@ -49,7 +49,7 @@ function navigation(page){
         window.location.href="https://marques.cf/about/CarlP"
     }
     if (page === "LudovicM"){
-        window.location.href="https://marques.cf/about/LudovicM"
+        window.location.href="https://about.marques.cf"
     }
 }
 
