@@ -13,41 +13,41 @@ const navTitles = document.querySelectorAll('.nav_title');
 function navigation(page){
     const pageURL = "/About-Nothing-1"
     if (page === "home"){
-        window.location.pathname="";
+        window.location.href=pageURL;
     }
     if (page === "produits"){
-        window.location.pathname=pageURL+"/produits";
+        window.location.href=pageURL+"/produits";
     }
     if (page === "phone_1"){
-        window.location.href="/produits/phone-1";
+        window.location.href=pageURL+"/produits/phone-1";
     }
     if (page === "audio"){
-        window.location.href="/pages/audio";
+        window.location.href=pageURL+"/pages/audio";
     }
     if (page === "ear_stick"){
-        window.location.href="/produits/ear-stick";
+        window.location.href=pageURL+"/produits/ear-stick";
     }
     if (page === "ear_1"){
-        window.location.href="/produits/ear-1";
+        window.location.href=pageURL+"/produits/ear-1";
     }
     if (page === "ear_2"){
-        window.location.href="/produits/ear-2"
+        window.location.href=pageURL+"/produits/ear-2"
     }
     if (page === "accessoires"){
-        window.location.href="/pages/accessoires";
+        window.location.href=pageURL+"/pages/accessoires";
     }
     if (page === "power_45"){
-        window.location.href="/produits/power-45";
+        window.location.href=pageURL+"/produits/power-45";
     }
 
     if (page === "about"){
-        window.location.href="/About-Nothing-1/about";
+        window.location.href=pageURL+"/about";
     }
     if (page === "CarlP"){
-        window.location.href="/about/CarlP"
+        window.location.href=pageURL+"/about/CarlP";
     }
     if (page === "LudovicM"){
-        window.location.pathname=""
+        window.location.href=pageURL+"";
     }
 }
 
