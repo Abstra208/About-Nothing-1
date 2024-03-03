@@ -9,9 +9,9 @@ const body = document.querySelector("body");
 
 /*navbar*/
 const navTitles = document.querySelectorAll('.nav_title');
-const pageURL = "/About-Nothing-1"
 
 function navigation(page){
+    const pageURL = "/About-Nothing-1"
     if (page === "home"){
         window.location.pathname="";
     }
