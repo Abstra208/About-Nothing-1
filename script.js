@@ -9,13 +9,14 @@ const body = document.querySelector("body");
 
 /*navbar*/
 const navTitles = document.querySelectorAll('.nav_title');
+const pageURL = "/About-Nothing-1"
 
 function navigation(page){
     if (page === "home"){
         window.location.pathname="";
     }
     if (page === "produits"){
-        window.location.pathname="/produits";
+        window.location.pathname=pageURL+"/produits";
     }
     if (page === "about"){
         window.location.href="/pages/about";
