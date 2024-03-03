@@ -18,9 +18,6 @@ function navigation(page){
     if (page === "produits"){
         window.location.pathname=pageURL+"/produits";
     }
-    if (page === "about"){
-        window.location.href="/About-Nothing-1/pages/about";
-    }
     if (page === "phone_1"){
         window.location.href="/produits/phone-1";
     }
@@ -44,7 +41,7 @@ function navigation(page){
     }
 
     if (page === "about"){
-        window.location.pathname="/about";
+        window.location.pathname="/About-Nothing-1/about";
     }
     if (page === "CarlP"){
         window.location.pathname="/about/CarlP"
