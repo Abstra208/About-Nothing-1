@@ -19,7 +19,7 @@ function navigation(page){
         window.location.pathname=pageURL+"/produits";
     }
     if (page === "about"){
-        window.location.href="/pages/about";
+        window.location.href="/About-Nothing-1/pages/about";
     }
     if (page === "phone_1"){
         window.location.href="/produits/phone-1";
