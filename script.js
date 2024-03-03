@@ -41,10 +41,10 @@ function navigation(page){
     }
 
     if (page === "about"){
-        window.location.pathname="/About-Nothing-1/about";
+        window.location.href="/About-Nothing-1/about";
     }
     if (page === "CarlP"){
-        window.location.pathname="/about/CarlP"
+        window.location.href="/about/CarlP"
     }
     if (page === "LudovicM"){
         window.location.pathname=""
