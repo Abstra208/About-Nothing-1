@@ -1,6 +1,6 @@
 /*LOAD NAVBAR*/
 $(function(){
-    $("header").load("/header.html");
+    $("header").load("/About-Nothing-1/header.html");
 });
 
 /*VARIABLE*/
